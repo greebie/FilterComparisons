@@ -1,0 +1,2660 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.1" xmlns="http://www.gexf.net/1.1draft" xmlns:viz="http://www.gexf.net/1.1draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="edge" mode="static">
+      <attribute id="15" title="crawlDate" type="string" />
+    </attributes>
+    <attributes class="node" mode="static">
+      <attribute id="0" title="Hub" type="double" />
+      <attribute id="1" title="Indegree" type="double" />
+      <attribute id="2" title="Outdegree" type="double" />
+      <attribute id="3" title="Betweenness" type="double" />
+      <attribute id="4" title="PageRank" type="double" />
+      <attribute id="5" title="Eigenvector" type="double" />
+      <attribute id="6" title="size" type="double" />
+      <attribute id="7" title="b" type="double" />
+      <attribute id="8" title="Degree" type="double" />
+      <attribute id="9" title="g" type="double" />
+      <attribute id="10" title="Authority" type="double" />
+      <attribute id="11" title="r" type="double" />
+      <attribute id="12" title="y" type="double" />
+      <attribute id="13" title="x" type="double" />
+      <attribute id="14" title="WalkTrapModularity" type="double" />
+    </attributes>
+    <nodes>
+      <node id="f8eab763c863b6270dad3db76fd2094a" label="carpenoctem.tv">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1508.21" />
+          <attvalue for="13" value="-877.534" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="8f9f95aef14ece4a4a5dc32a72721149" label="greenparty.ca">
+        <attvalues>
+          <attvalue for="0" value="2.22817e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="1.81476e-16" />
+          <attvalue for="6" value="2.87474" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="3.0" />
+          <attvalue for="9" value="189.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="427.278" />
+          <attvalue for="13" value="-430.882" />
+          <attvalue for="14" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="a86de8a5133c2ac1878b9403e084024e" label="ccsd.ca">
+        <attvalues>
+          <attvalue for="0" value="1.74075e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0447497" />
+          <attvalue for="5" value="1.81476e-16" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="53.9895" />
+          <attvalue for="13" value="-169.731" />
+          <attvalue for="14" value="17.0" />
+        </attvalues>
+      </node>
+      <node id="9cce24c55aee4eb39845fde935cca3da" label="web.net">
+        <attvalues>
+          <attvalue for="0" value="0.0059274" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00782033" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="4.79123" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="5.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.00547186" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="435.722" />
+          <attvalue for="13" value="-630.023" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="bdc71a0180ccb54658eb203942c5db60" label="agoracosmopolite.com">
+        <attvalues>
+          <attvalue for="0" value="4.87411e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0116738" />
+          <attvalue for="5" value="1.20984e-16" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="227.522" />
+          <attvalue for="13" value="-146.633" />
+          <attvalue for="14" value="15.0" />
+        </attvalues>
+      </node>
+      <node id="3d29ed40468aefcbf78ca0cf002f91c1" label="aboriginalwomenonthemove.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1058.14" />
+          <attvalue for="13" value="-87.2548" />
+          <attvalue for="14" value="14.0" />
+        </attvalues>
+      </node>
+      <node id="d5ae6cd0b4b9546893cf3c03fc0c4aeb" label="coat.ncf.ca">
+        <attvalues>
+          <attvalue for="0" value="1.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="12.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="6.04919e-17" />
+          <attvalue for="6" value="11.4989" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="12.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1164.38" />
+          <attvalue for="13" value="-1056.31" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="8de2b275624d4a9bd411a519cea54d32" label="legis.gov.bc.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00764019" />
+          <attvalue for="5" value="2.08576e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="834.037" />
+          <attvalue for="13" value="-1036.11" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="c6124246cee33458fa550515300059ee" label="thirdworldtraveler.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1353.11" />
+          <attvalue for="13" value="-1282.88" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="38f1eeb72644a26518bcd009bdb4b596" label="benmor.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1474.78" />
+          <attvalue for="13" value="-265.942" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="442b478edb0cb7391b174e14c3d1a7c6" label="gov.yk.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00764019" />
+          <attvalue for="5" value="3.18792e-14" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="712.92" />
+          <attvalue for="13" value="-1406.71" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="2f3545a0b5bbe6df93a66c43f880f2e9" label="members.tripod.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="3.06754e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1312.49" />
+          <attvalue for="13" value="-937.855" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="cb19fda7cafb6df912349276b8f9d65f" label="ridings.greenparty.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="189.0" />
+          <attvalue for="10" value="2.82047e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="277.426" />
+          <attvalue for="13" value="-348.198" />
+          <attvalue for="14" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="5886b9f576df7b8ae6f2c8a6268c0974" label="genesmedia.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0116738" />
+          <attvalue for="5" value="5.17447e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="5.28838e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="524.787" />
+          <attvalue for="13" value="-213.434" />
+          <attvalue for="14" value="15.0" />
+        </attvalues>
+      </node>
+      <node id="c114172bee26554a6880e94fd1c6ba76" label="stopstoningnow.no-ip.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1461.3" />
+          <attvalue for="13" value="-396.915" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="60c32f448f99fd9fefbb44899ad9cc3a" label="canadaelection.net">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1504.97" />
+          <attvalue for="13" value="-1100.08" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ecab7930ae6daaae85e0e49cbaaca87d" label="ad.doubleclick.net">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1213.26" />
+          <attvalue for="13" value="-263.273" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="5d251160e5b44cfaac8cacdd8850bacb" label="store.aetv.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="1.64846e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="915.066" />
+          <attvalue for="13" value="-849.703" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="e357f78cf52ab0898f6cf6adafe37a29" label="cic.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00782033" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.00547186" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="594.849" />
+          <attvalue for="13" value="-694.929" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="809d72197f12ae1890bffcb575be7ff3" label="equalvoice.ca%20">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1468.82" />
+          <attvalue for="13" value="-972.218" />
+          <attvalue for="14" value="13.0" />
+        </attvalues>
+      </node>
+      <node id="84b9fcec638d0b00d11eba5ee3171d84" label="pm.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="0.000227249" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="2.87474" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="3.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="875.42" />
+          <attvalue for="13" value="-358.715" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="04e313a4979a2219e81df1306fdba961" label="youth.ndp.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0116738" />
+          <attvalue for="5" value="1.15255e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="5.28838e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="528.782" />
+          <attvalue for="13" value="-1560.55" />
+          <attvalue for="14" value="16.0" />
+        </attvalues>
+      </node>
+      <node id="7bdc476457fb537975d40db7d8389f1e" label="gca.ca">
+        <attvalues>
+          <attvalue for="0" value="1.11408e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="3.83298" />
+          <attvalue for="7" value="189.0" />
+          <attvalue for="8" value="4.0" />
+          <attvalue for="9" value="120.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="626.012" />
+          <attvalue for="13" value="-59.7599" />
+          <attvalue for="14" value="7.0" />
+        </attvalues>
+      </node>
+      <node id="897564200e1866455fe53cb3bd7d118e" label="druglibrary.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="1.50734e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1018.99" />
+          <attvalue for="13" value="-1163.73" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="ea79ccdbb21e44e91a54775d3c1ac5bb" label="severnsound.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00813885" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="189.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="120.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="507.011" />
+          <attvalue for="13" value="113.574" />
+          <attvalue for="14" value="7.0" />
+        </attvalues>
+      </node>
+      <node id="b57e90e545cbd2a5c3dfb1156491c4d9" label="mciunix.mciu.k12.pa.us">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1321.18" />
+          <attvalue for="13" value="-1091.47" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="8db91e1e658cc7c6389ebc1518dd975f" label="blocquebecois.org">
+        <attvalues>
+          <attvalue for="0" value="4.87411e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="805.388" />
+          <attvalue for="13" value="-70.3843" />
+          <attvalue for="14" value="11.0" />
+        </attvalues>
+      </node>
+      <node id="85c142fea19866302ae88a4eea11b42b" label="cisr.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00782033" />
+          <attvalue for="5" value="8.61404e-14" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.00547186" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="199.419" />
+          <attvalue for="13" value="-806.915" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="a8badd1d31bc6711709e93498cc8464b" label="policyalternatives.ca">
+        <attvalues>
+          <attvalue for="0" value="1.3926e-16" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="0.0118936" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="2.87474" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="3.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="4.93582e-16" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="590.631" />
+          <attvalue for="13" value="-1177.2" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="eeb0214fd308240652eedadc8194647f" label="secure.bloc.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00956524" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="1.76279e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="904.038" />
+          <attvalue for="13" value="-168.178" />
+          <attvalue for="14" value="11.0" />
+        </attvalues>
+      </node>
+      <node id="5ac82d4250c1c0d2d35cd120045e517b" label="ctf-fce.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="1.03822e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="-91.1902" />
+          <attvalue for="13" value="-641.936" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="c27b54bab5684779149501f9180eeae3" label="sft-ddt.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00861431" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.000209785" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="765.89" />
+          <attvalue for="13" value="-557.273" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="f493e9bc92945cc90e939de538e20135" label="strongholdpublishing.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="217.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="35.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="123.0" />
+          <attvalue for="12" value="726.62" />
+          <attvalue for="13" value="-193.502" />
+          <attvalue for="14" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="c00994b64130ef12c262a0a389f87e8e" label="familyaction.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="1.82552e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="-47.6328" />
+          <attvalue for="13" value="-377.998" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="ff0ce68bf0167bce979f6142d9ae7415" label="theglobeandmail.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1208.1" />
+          <attvalue for="13" value="-10.9024" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="266e123b46836ac3949cef2157e36a93" label="secure.conservative.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.015891" />
+          <attvalue for="5" value="1.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="1.76279e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="174.344" />
+          <attvalue for="13" value="-1063.59" />
+          <attvalue for="14" value="12.0" />
+        </attvalues>
+      </node>
+      <node id="669e9d825f3f8f6e177b45c4f74b3cc7" label="nawl.ca">
+        <attvalues>
+          <attvalue for="0" value="1.81038e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="1.81476e-16" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1117.65" />
+          <attvalue for="13" value="-1306.59" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="ee911c750cee65e3cc4ee5401b0b3e78" label="gov.mb.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00764019" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="1020.27" />
+          <attvalue for="13" value="-1527.24" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="aee224792317e5d036a15fd62c5f800b" label="heritagefront.com">
+        <attvalues>
+          <attvalue for="0" value="5.57042e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="1.81476e-16" />
+          <attvalue for="6" value="2.87474" />
+          <attvalue for="7" value="217.0" />
+          <attvalue for="8" value="3.0" />
+          <attvalue for="9" value="35.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="123.0" />
+          <attvalue for="12" value="808.729" />
+          <attvalue for="13" value="51.1132" />
+          <attvalue for="14" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="16d0bffe49ee76d95867dc7aac7b5857" label="google.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="3.01733e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1270.23" />
+          <attvalue for="13" value="-1374.66" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="5973a27afaff792965f138d880fa485d" label="egale.ca">
+        <attvalues>
+          <attvalue for="0" value="1.74075e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0447497" />
+          <attvalue for="5" value="1.20984e-16" />
+          <attvalue for="6" value="0.0" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="0.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1365.76" />
+          <attvalue for="13" value="-107.443" />
+          <attvalue for="14" value="18.0" />
+        </attvalues>
+      </node>
+      <node id="f33b3da536125574d5992df191d66b92" label="coe.int">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="402.057" />
+          <attvalue for="13" value="-312.379" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="7f81422f68de2a1a160de03d362dd48c" label="validator.w3.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="189.0" />
+          <attvalue for="10" value="2.82047e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="79.0991" />
+          <attvalue for="13" value="-376.525" />
+          <attvalue for="14" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="bf33af084e99a8e2d617b7fb3fc6aa5d" label="partimarijuana.org">
+        <attvalues>
+          <attvalue for="0" value="2.50669e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="5.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="4.79123" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="5.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="463.053" />
+          <attvalue for="13" value="-1179.81" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="267e170be88b02e13da865137e9fe5e4" label="hashamconsulting.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1381.65" />
+          <attvalue for="13" value="-546.644" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="77eadafc0a53cb80d572c1afc302495a" label="assembly.pe.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00764019" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="974.694" />
+          <attvalue for="13" value="-1018.24" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="88d6dbf6a36ed106280bd9d1cc35c78d" label="claytoncramer.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="8.27529e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1232.07" />
+          <attvalue for="13" value="-781.617" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="58dc21d796f159e28e4b0ea9cd9cea35" label="ndp.ca">
+        <attvalues>
+          <attvalue for="0" value="4.87411e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0116738" />
+          <attvalue for="5" value="1.20984e-16" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="577.086" />
+          <attvalue for="13" value="-1360.66" />
+          <attvalue for="14" value="16.0" />
+        </attvalues>
+      </node>
+      <node id="d8aa06a9e787628d1636d65026a817d4" label="ppforum.com">
+        <attvalues>
+          <attvalue for="0" value="9.05192e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="406.405" />
+          <attvalue for="13" value="-1504.61" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="c8afd9a8d4f41febfc0a3e4e3d70265f" label="ecee.on.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00813885" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="189.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="120.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="668.941" />
+          <attvalue for="13" value="-330.182" />
+          <attvalue for="14" value="7.0" />
+        </attvalues>
+      </node>
+      <node id="9da0e9791cf33fd4e9990551c3359f2e" label="canadafirst.net">
+        <attvalues>
+          <attvalue for="0" value="1.3926e-16" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="2.0" />
+          <attvalue for="4" value="0.0118936" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="2.87474" />
+          <attvalue for="7" value="217.0" />
+          <attvalue for="8" value="3.0" />
+          <attvalue for="9" value="35.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="123.0" />
+          <attvalue for="12" value="482.785" />
+          <attvalue for="13" value="-25.7874" />
+          <attvalue for="14" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="d5d1f9bedf19f63ad496d57441a2a08b" label="bloc.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00956524" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="1.76279e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="951.25" />
+          <attvalue for="13" value="33.278" />
+          <attvalue for="14" value="11.0" />
+        </attvalues>
+      </node>
+      <node id="f9f475d1dc96dc9777b5f56d94e3ebbb" label="ntp1.kookiejar.net">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="8.32792e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="3.52559e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="642.63" />
+          <attvalue for="13" value="-1539.49" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="5399465c5b23df17b16c2377e865a0b2" label="PetitionOnline.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="939.02" />
+          <attvalue for="13" value="-637.53" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="685c58fd100fb98b41dc5857e8434019" label="indigenoussummit.net">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1034.33" />
+          <attvalue for="13" value="-246.08" />
+          <attvalue for="14" value="14.0" />
+        </attvalues>
+      </node>
+      <node id="ed14afb4b86233e7d0cb59a928ef09c0" label="canadians.org">
+        <attvalues>
+          <attvalue for="0" value="2.78521e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="6.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00764019" />
+          <attvalue for="5" value="1.81476e-16" />
+          <attvalue for="6" value="5.74947" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="6.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="907.738" />
+          <attvalue for="13" value="-1271.43" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="4d426e9f5a1275a111a83fd4d388567c" label="canadianactionparty.ca">
+        <attvalues>
+          <attvalue for="0" value="1.25334e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="3.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="1.81476e-16" />
+          <attvalue for="6" value="2.87474" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="3.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="350.111" />
+          <attvalue for="13" value="-1308.86" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="7976afb00427239d847abdcd93964588" label="conservative.ca">
+        <attvalues>
+          <attvalue for="0" value="4.87411e-17" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="1.0" />
+          <attvalue for="4" value="0.0215966" />
+          <attvalue for="5" value="1.06776e-08" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="3.52559e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="352.219" />
+          <attvalue for="13" value="-1055.66" />
+          <attvalue for="14" value="12.0" />
+        </attvalues>
+      </node>
+      <node id="b5292b14062eeaa88b2bc8b862866dbb" label="mozilla.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00785357" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="448.447" />
+          <attvalue for="13" value="-1379.58" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="b9d3a2ec49484d20eafeb6b6b658cb24" label="afn.ca">
+        <attvalues>
+          <attvalue for="0" value="9.74823e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="6.04919e-17" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1195.1" />
+          <attvalue for="13" value="-123.342" />
+          <attvalue for="14" value="14.0" />
+        </attvalues>
+      </node>
+      <node id="407a7ac4c85ec67940c7ce1c860bb60a" label="gardedenfants.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00861431" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.000209785" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="1325.1" />
+          <attvalue for="13" value="-268.077" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="e3e173c17e74f49a7e789278cac8b14c" label="spiritone.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="5.63179e-14" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1205.8" />
+          <attvalue for="13" value="-1200.67" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="731b811d91cfc4522308823d383482e3" label="xynapse.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1478.68" />
+          <attvalue for="13" value="-674.375" />
+          <attvalue for="14" value="13.0" />
+        </attvalues>
+      </node>
+      <node id="1725075aee617949c6bd8a1557dd0670" label="newislam.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="954.675" />
+          <attvalue for="13" value="-471.541" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="c0281943e3e3566078c176532fd42543" label="canadiancrc.com">
+        <attvalues>
+          <attvalue for="0" value="0.0832497" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="11.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="1.20984e-16" />
+          <attvalue for="6" value="10.5407" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="11.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="178.934" />
+          <attvalue for="13" value="-630.576" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="633c96238b8d07b8a40ea16b4ce8eb53" label="adobe.com">
+        <attvalues>
+          <attvalue for="0" value="2.78521e-17" />
+          <attvalue for="1" value="4.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0205502" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="3.83298" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="4.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="5.64094e-16" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="805.366" />
+          <attvalue for="13" value="-1461.57" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="45cad84930433827d75db97d0af88f33" label="westernblockparty.com">
+        <attvalues>
+          <attvalue for="0" value="4.87411e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="120.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="150.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1358.18" />
+          <attvalue for="13" value="-766.353" />
+          <attvalue for="14" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="5f110a5a98c8d77583671fd913d80c37" label="liberal.ca">
+        <attvalues>
+          <attvalue for="0" value="2.50669e-16" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="4.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00808729" />
+          <attvalue for="5" value="1.20984e-16" />
+          <attvalue for="6" value="3.83298" />
+          <attvalue for="7" value="180.0" />
+          <attvalue for="8" value="4.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="90.7199" />
+          <attvalue for="13" value="-958.483" />
+          <attvalue for="14" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="b929a12045d92d7967b33e65dae329fa" label="politicalgraveyard.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="3.11957e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1430.57" />
+          <attvalue for="13" value="-1188.41" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="3cdca5d155b682f6b2ead545f25b7726" label="laliberation.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00956524" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="120.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="150.0" />
+          <attvalue for="10" value="1.76279e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1134.3" />
+          <attvalue for="13" value="-893.602" />
+          <attvalue for="14" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="823472703eadc53cd1d8c99e5e02264a" label="davidsuzuki.org">
+        <attvalues>
+          <attvalue for="0" value="9.05192e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0116738" />
+          <attvalue for="5" value="6.04919e-17" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="857.99" />
+          <attvalue for="13" value="-1583.63" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="8043ebefc6302bfa08a15e56812fe37b" label="jfcy.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="4.61553e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="-24.6521" />
+          <attvalue for="13" value="-877.357" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="319347d1d0e3c3cf590206fac5ca69d2" label="video.rogerstelevision.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="3.52559e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="94.9802" />
+          <attvalue for="13" value="-1218.34" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="2fea3850ae4d0124b568409ec68ef6e0" label="sol-littman.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0100823" />
+          <attvalue for="5" value="9.62426e-14" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="217.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="35.0" />
+          <attvalue for="10" value="1.41023e-16" />
+          <attvalue for="11" value="123.0" />
+          <attvalue for="12" value="357.284" />
+          <attvalue for="13" value="49.8175" />
+          <attvalue for="14" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="4d23d9bba280490d99a0808088184d38" label="phpbb.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00956524" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="120.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="150.0" />
+          <attvalue for="10" value="1.76279e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1073.07" />
+          <attvalue for="13" value="-740.592" />
+          <attvalue for="14" value="10.0" />
+        </attvalues>
+      </node>
+      <node id="b0110c47e8b706ed219e3e5a41430ea1" label="canada.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="1.3926e-17" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00972219" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.00568165" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="625.413" />
+          <attvalue for="13" value="-493.75" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="b74010a3384fda16ccca54135a215c34" label="votons.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00785357" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="171.195" />
+          <attvalue for="13" value="-1316.54" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="405d19a958ba43d88e9edd7a77338aa3" label="laws.justice.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="1.3926e-17" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00833204" />
+          <attvalue for="5" value="6.04556e-13" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0823237" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="67.2573" />
+          <attvalue for="13" value="-575.352" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="d1063af181fe606e55ed93dd5b867169" label="en.wikipedia.org">
+        <attvalues>
+          <attvalue for="0" value="1.3926e-17" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00769376" />
+          <attvalue for="5" value="2.59196e-12" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="1.0" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="714.069" />
+          <attvalue for="13" value="-793.454" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="9ee597e68021ad5ef823cdffbc218edb" label="nosharia.com">
+        <attvalues>
+          <attvalue for="0" value="0.0" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="12.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="11.4989" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="12.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1280.24" />
+          <attvalue for="13" value="-429.676" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="c45891a8764d82afa7064c78579f0115" label="fraserinstitute.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00785357" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="714.281" />
+          <attvalue for="13" value="-1126.93" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="2f3a58b0e9be954b04a88a4d195210f3" label="new-horizon.up.co.il">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1093.81" />
+          <attvalue for="13" value="-538.691" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="724fb07d179833a8baa09e06d8bb6fd9" label="renoufbooks.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00956524" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="244.4" />
+          <attvalue for="13" value="-1433.99" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="21dd8022d1e78b3ab96239e4d57c09a5" label="embassymag.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="8.80641e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="319.223" />
+          <attvalue for="13" value="-592.374" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="411758a85dc6be659a62bd358062b924" label="members.rogers.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="59.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.923148" />
+          <attvalue for="11" value="67.0" />
+          <attvalue for="12" value="1151.14" />
+          <attvalue for="13" value="-1436.5" />
+          <attvalue for="14" value="6.0" />
+        </attvalues>
+      </node>
+      <node id="42d946511b4361926857e79e57238aa6" label="nationalpost.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0100823" />
+          <attvalue for="5" value="1.29906e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="217.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="35.0" />
+          <attvalue for="10" value="1.41023e-16" />
+          <attvalue for="11" value="123.0" />
+          <attvalue for="12" value="243.556" />
+          <attvalue for="13" value="-22.6542" />
+          <attvalue for="14" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="00b8c3504a7fb3a25826976066ba9711" label="kenboshcoff.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00808729" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="180.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="2.46791e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="-4.93189" />
+          <attvalue for="13" value="-1125.4" />
+          <attvalue for="14" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="04be4ba28961338d79cc34e4735fd40c" label="archives.radio-canada.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00785357" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="509.416" />
+          <attvalue for="13" value="-943.368" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="6f536977001fbd1243265d62355bdb7d" label="energiepcc.ca">
+        <attvalues>
+          <attvalue for="0" value="4.87411e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="1.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00671245" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="264.096" />
+          <attvalue for="13" value="-1179.61" />
+          <attvalue for="14" value="12.0" />
+        </attvalues>
+      </node>
+      <node id="6716d1d42846ba1b264a77ca5a24b771" label="drkylepae.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1229.83" />
+          <attvalue for="13" value="-601.809" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="b0fff72e4bbf14a8b779ab443ae9f340" label="msf.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00782033" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.00547186" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="209.109" />
+          <attvalue for="13" value="-481.07" />
+          <attvalue for="14" value="2.0" />
+        </attvalues>
+      </node>
+      <node id="e84e00b1c72bd77e061575bc83613622" label="freedomsite.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="217.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="35.0" />
+          <attvalue for="10" value="8.81397e-17" />
+          <attvalue for="11" value="123.0" />
+          <attvalue for="12" value="1043.92" />
+          <attvalue for="13" value="103.699" />
+          <attvalue for="14" value="3.0" />
+        </attvalues>
+      </node>
+      <node id="2601e21e23963594c5dd08f7e58931c1" label="canadians.inline.net">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00764019" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="969.797" />
+          <attvalue for="13" value="-1407.34" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="2009006346eacdc3199fc3975b81bf76" label="web.greenparty.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00852375" />
+          <attvalue for="5" value="3.37424e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="189.0" />
+          <attvalue for="10" value="2.82047e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="378.129" />
+          <attvalue for="13" value="-154.99" />
+          <attvalue for="14" value="9.0" />
+        </attvalues>
+      </node>
+      <node id="f9a12b41b7e9cb9fb8d3aacba11ec230" label="endcorporalpunishment.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="1.17282e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="-77.417" />
+          <attvalue for="13" value="-512.714" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="cf4ad6942be68dde12284907c176e237" label="safewatergroup.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1555.05" />
+          <attvalue for="13" value="-477.222" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="264bea18042c842fcfb88b7bd40e41fb" label="parl.gc.ca">
+        <attvalues>
+          <attvalue for="0" value="1.3926e-17" />
+          <attvalue for="1" value="2.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0087813" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="211.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="35.0" />
+          <attvalue for="12" value="756.135" />
+          <attvalue for="13" value="-1271.57" />
+          <attvalue for="14" value="0.0" />
+        </attvalues>
+      </node>
+      <node id="c0bb814ddd6e46e5b51d7355b17e4379" label="equalvoice.ca">
+        <attvalues>
+          <attvalue for="0" value="9.74823e-17" />
+          <attvalue for="1" value="0.0" />
+          <attvalue for="2" value="2.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00936621" />
+          <attvalue for="5" value="1.20984e-16" />
+          <attvalue for="6" value="1.91649" />
+          <attvalue for="7" value="219.0" />
+          <attvalue for="8" value="2.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="-0.0" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="1600.94" />
+          <attvalue for="13" value="-792.645" />
+          <attvalue for="14" value="13.0" />
+        </attvalues>
+      </node>
+      <node id="c48c9d9c9525983831add0ff5194f898" label="conservationcorps.nf.ca">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00813885" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="189.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="120.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="763.674" />
+          <attvalue for="13" value="158.996" />
+          <attvalue for="14" value="7.0" />
+        </attvalues>
+      </node>
+      <node id="5b88030ddfd0793e7af6e655fac816cd" label="vivreenville.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00813885" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="189.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="120.0" />
+          <attvalue for="10" value="7.05117e-17" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="639.034" />
+          <attvalue for="13" value="93.8084" />
+          <attvalue for="14" value="7.0" />
+        </attvalues>
+      </node>
+      <node id="ca0cebc0f9a75dce981efd248da44df4" label="repeal43.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="1.73188e-12" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="147.618" />
+          <attvalue for="13" value="-281.209" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="ff8767098a55ac94018470a8c8e8dd9c" label="yasminratansi.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00808729" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="180.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="2.46791e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="-77.54" />
+          <attvalue for="13" value="-1005.66" />
+          <attvalue for="14" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="1d1af95f0337c5d51d0721e6af6b44f0" label="raisedeyebrow.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.0100823" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="35.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="80.0" />
+          <attvalue for="10" value="4.05442e-16" />
+          <attvalue for="11" value="217.0" />
+          <attvalue for="12" value="662.939" />
+          <attvalue for="13" value="-949.876" />
+          <attvalue for="14" value="1.0" />
+        </attvalues>
+      </node>
+      <node id="fca12b2185ef8db41d41989c46743cbe" label="butterfliesandwheels.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1125.39" />
+          <attvalue for="13" value="-385.357" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="0e37433cf5166e817abd742fb1bfa1ca" label="bonniebrown.org">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00808729" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="180.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="2.46791e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="320.908" />
+          <attvalue for="13" value="-916.603" />
+          <attvalue for="14" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="355ecb2f44cef9b85eab4000eea781fc" label="realwomenca.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="1.10579e-13" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="-115.481" />
+          <attvalue for="13" value="-771.922" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+      <node id="d29a8b44fd424d49a9a3fd052f6d2105" label="scottsimms.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00808729" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="180.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="219.0" />
+          <attvalue for="10" value="2.46791e-16" />
+          <attvalue for="11" value="120.0" />
+          <attvalue for="12" value="40.2031" />
+          <attvalue for="13" value="-763.28" />
+          <attvalue for="14" value="8.0" />
+        </attvalues>
+      </node>
+      <node id="161d466665db97a55b7c65c6e1a756a5" label="chidrenfirstnow.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00718204" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="209.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="217.0" />
+          <attvalue for="10" value="0.0" />
+          <attvalue for="11" value="59.0" />
+          <attvalue for="12" value="1582.19" />
+          <attvalue for="13" value="-611.09" />
+          <attvalue for="14" value="5.0" />
+        </attvalues>
+      </node>
+      <node id="73de7a64016f48de62aa600ab413fb57" label="babelfish.altavista.com">
+        <attvalues>
+          <attvalue for="0" value="6.96302e-18" />
+          <attvalue for="1" value="1.0" />
+          <attvalue for="2" value="0.0" />
+          <attvalue for="3" value="0.0" />
+          <attvalue for="4" value="0.00722416" />
+          <attvalue for="5" value="0.0" />
+          <attvalue for="6" value="0.958245" />
+          <attvalue for="7" value="147.0" />
+          <attvalue for="8" value="1.0" />
+          <attvalue for="9" value="59.0" />
+          <attvalue for="10" value="0.0768518" />
+          <attvalue for="11" value="219.0" />
+          <attvalue for="12" value="364.459" />
+          <attvalue for="13" value="-773.886" />
+          <attvalue for="14" value="4.0" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="8f9f95aef14ece4a4a5dc32a72721149" target="2009006346eacdc3199fc3975b81bf76" weight="39.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="1" source="8f9f95aef14ece4a4a5dc32a72721149" target="8f9f95aef14ece4a4a5dc32a72721149" weight="39.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="2" source="8f9f95aef14ece4a4a5dc32a72721149" target="cb19fda7cafb6df912349276b8f9d65f" weight="78.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="3" source="8f9f95aef14ece4a4a5dc32a72721149" target="7f81422f68de2a1a160de03d362dd48c" weight="39.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="4" source="a86de8a5133c2ac1878b9403e084024e" target="a86de8a5133c2ac1878b9403e084024e" weight="367.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="5" source="9cce24c55aee4eb39845fde935cca3da" target="85c142fea19866302ae88a4eea11b42b" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="6" source="9cce24c55aee4eb39845fde935cca3da" target="e357f78cf52ab0898f6cf6adafe37a29" weight="6.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="7" source="9cce24c55aee4eb39845fde935cca3da" target="b0110c47e8b706ed219e3e5a41430ea1" weight="4.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="8" source="9cce24c55aee4eb39845fde935cca3da" target="405d19a958ba43d88e9edd7a77338aa3" weight="3.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="9" source="9cce24c55aee4eb39845fde935cca3da" target="9cce24c55aee4eb39845fde935cca3da" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="10" source="9cce24c55aee4eb39845fde935cca3da" target="b0fff72e4bbf14a8b779ab443ae9f340" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="11" source="bdc71a0180ccb54658eb203942c5db60" target="bdc71a0180ccb54658eb203942c5db60" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="12" source="bdc71a0180ccb54658eb203942c5db60" target="5886b9f576df7b8ae6f2c8a6268c0974" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="13" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="e3e173c17e74f49a7e789278cac8b14c" weight="3.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="14" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="2f3545a0b5bbe6df93a66c43f880f2e9" weight="5.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="15" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="897564200e1866455fe53cb3bd7d118e" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="16" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="b57e90e545cbd2a5c3dfb1156491c4d9" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="17" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="88d6dbf6a36ed106280bd9d1cc35c78d" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="18" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="5d251160e5b44cfaac8cacdd8850bacb" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="19" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="b929a12045d92d7967b33e65dae329fa" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="20" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="d1063af181fe606e55ed93dd5b867169" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="21" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="f8eab763c863b6270dad3db76fd2094a" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="22" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="411758a85dc6be659a62bd358062b924" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="23" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="16d0bffe49ee76d95867dc7aac7b5857" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="24" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="d5ae6cd0b4b9546893cf3c03fc0c4aeb" weight="89.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="25" source="d5ae6cd0b4b9546893cf3c03fc0c4aeb" target="c6124246cee33458fa550515300059ee" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="26" source="84b9fcec638d0b00d11eba5ee3171d84" target="b0110c47e8b706ed219e3e5a41430ea1" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="27" source="84b9fcec638d0b00d11eba5ee3171d84" target="c27b54bab5684779149501f9180eeae3" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="28" source="84b9fcec638d0b00d11eba5ee3171d84" target="407a7ac4c85ec67940c7ce1c860bb60a" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="29" source="7bdc476457fb537975d40db7d8389f1e" target="ea79ccdbb21e44e91a54775d3c1ac5bb" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="30" source="7bdc476457fb537975d40db7d8389f1e" target="c48c9d9c9525983831add0ff5194f898" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="31" source="7bdc476457fb537975d40db7d8389f1e" target="5b88030ddfd0793e7af6e655fac816cd" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="32" source="7bdc476457fb537975d40db7d8389f1e" target="c8afd9a8d4f41febfc0a3e4e3d70265f" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="33" source="8db91e1e658cc7c6389ebc1518dd975f" target="d5d1f9bedf19f63ad496d57441a2a08b" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="34" source="8db91e1e658cc7c6389ebc1518dd975f" target="eeb0214fd308240652eedadc8194647f" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="35" source="a8badd1d31bc6711709e93498cc8464b" target="1d1af95f0337c5d51d0721e6af6b44f0" weight="17.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="36" source="a8badd1d31bc6711709e93498cc8464b" target="a8badd1d31bc6711709e93498cc8464b" weight="1072.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="37" source="a8badd1d31bc6711709e93498cc8464b" target="633c96238b8d07b8a40ea16b4ce8eb53" weight="11.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="38" source="669e9d825f3f8f6e177b45c4f74b3cc7" target="633c96238b8d07b8a40ea16b4ce8eb53" weight="7.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="39" source="669e9d825f3f8f6e177b45c4f74b3cc7" target="669e9d825f3f8f6e177b45c4f74b3cc7" weight="168.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="40" source="669e9d825f3f8f6e177b45c4f74b3cc7" target="60c32f448f99fd9fefbb44899ad9cc3a" weight="8.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="41" source="aee224792317e5d036a15fd62c5f800b" target="9da0e9791cf33fd4e9990551c3359f2e" weight="6.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="42" source="aee224792317e5d036a15fd62c5f800b" target="f493e9bc92945cc90e939de538e20135" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="43" source="aee224792317e5d036a15fd62c5f800b" target="aee224792317e5d036a15fd62c5f800b" weight="12.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="44" source="aee224792317e5d036a15fd62c5f800b" target="e84e00b1c72bd77e061575bc83613622" weight="4.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="45" source="5973a27afaff792965f138d880fa485d" target="5973a27afaff792965f138d880fa485d" weight="91.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="46" source="bf33af084e99a8e2d617b7fb3fc6aa5d" target="c45891a8764d82afa7064c78579f0115" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="47" source="bf33af084e99a8e2d617b7fb3fc6aa5d" target="04be4ba28961338d79cc34e4735fd40c" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="48" source="bf33af084e99a8e2d617b7fb3fc6aa5d" target="b74010a3384fda16ccca54135a215c34" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="49" source="bf33af084e99a8e2d617b7fb3fc6aa5d" target="b5292b14062eeaa88b2bc8b862866dbb" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="50" source="bf33af084e99a8e2d617b7fb3fc6aa5d" target="264bea18042c842fcfb88b7bd40e41fb" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="51" source="58dc21d796f159e28e4b0ea9cd9cea35" target="04e313a4979a2219e81df1306fdba961" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="52" source="58dc21d796f159e28e4b0ea9cd9cea35" target="58dc21d796f159e28e4b0ea9cd9cea35" weight="190.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="53" source="d8aa06a9e787628d1636d65026a817d4" target="724fb07d179833a8baa09e06d8bb6fd9" weight="4.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="54" source="d8aa06a9e787628d1636d65026a817d4" target="633c96238b8d07b8a40ea16b4ce8eb53" weight="4.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="55" source="9da0e9791cf33fd4e9990551c3359f2e" target="9da0e9791cf33fd4e9990551c3359f2e" weight="4.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="56" source="9da0e9791cf33fd4e9990551c3359f2e" target="2fea3850ae4d0124b568409ec68ef6e0" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="57" source="9da0e9791cf33fd4e9990551c3359f2e" target="42d946511b4361926857e79e57238aa6" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="58" source="ed14afb4b86233e7d0cb59a928ef09c0" target="442b478edb0cb7391b174e14c3d1a7c6" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="59" source="ed14afb4b86233e7d0cb59a928ef09c0" target="ed14afb4b86233e7d0cb59a928ef09c0" weight="17.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="60" source="ed14afb4b86233e7d0cb59a928ef09c0" target="77eadafc0a53cb80d572c1afc302495a" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="61" source="ed14afb4b86233e7d0cb59a928ef09c0" target="ee911c750cee65e3cc4ee5401b0b3e78" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="62" source="ed14afb4b86233e7d0cb59a928ef09c0" target="264bea18042c842fcfb88b7bd40e41fb" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="63" source="ed14afb4b86233e7d0cb59a928ef09c0" target="8de2b275624d4a9bd411a519cea54d32" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="64" source="ed14afb4b86233e7d0cb59a928ef09c0" target="2601e21e23963594c5dd08f7e58931c1" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="65" source="4d426e9f5a1275a111a83fd4d388567c" target="f9f475d1dc96dc9777b5f56d94e3ebbb" weight="38.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="66" source="4d426e9f5a1275a111a83fd4d388567c" target="a8badd1d31bc6711709e93498cc8464b" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="67" source="4d426e9f5a1275a111a83fd4d388567c" target="4d426e9f5a1275a111a83fd4d388567c" weight="22.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="68" source="4d426e9f5a1275a111a83fd4d388567c" target="319347d1d0e3c3cf590206fac5ca69d2" weight="6.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="69" source="7976afb00427239d847abdcd93964588" target="266e123b46836ac3949cef2157e36a93" weight="29.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="70" source="7976afb00427239d847abdcd93964588" target="7976afb00427239d847abdcd93964588" weight="267.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="71" source="b9d3a2ec49484d20eafeb6b6b658cb24" target="3d29ed40468aefcbf78ca0cf002f91c1" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="72" source="b9d3a2ec49484d20eafeb6b6b658cb24" target="685c58fd100fb98b41dc5857e8434019" weight="2.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="73" source="b9d3a2ec49484d20eafeb6b6b658cb24" target="b9d3a2ec49484d20eafeb6b6b658cb24" weight="38.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="74" source="c0281943e3e3566078c176532fd42543" target="f33b3da536125574d5992df191d66b92" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="75" source="c0281943e3e3566078c176532fd42543" target="5ac82d4250c1c0d2d35cd120045e517b" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="76" source="c0281943e3e3566078c176532fd42543" target="8043ebefc6302bfa08a15e56812fe37b" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="77" source="c0281943e3e3566078c176532fd42543" target="c0281943e3e3566078c176532fd42543" weight="29.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="78" source="c0281943e3e3566078c176532fd42543" target="ca0cebc0f9a75dce981efd248da44df4" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="79" source="c0281943e3e3566078c176532fd42543" target="405d19a958ba43d88e9edd7a77338aa3" weight="3.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="80" source="c0281943e3e3566078c176532fd42543" target="d1063af181fe606e55ed93dd5b867169" weight="7.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="81" source="c0281943e3e3566078c176532fd42543" target="f9a12b41b7e9cb9fb8d3aacba11ec230" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="82" source="c0281943e3e3566078c176532fd42543" target="21dd8022d1e78b3ab96239e4d57c09a5" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="83" source="c0281943e3e3566078c176532fd42543" target="c00994b64130ef12c262a0a389f87e8e" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="84" source="c0281943e3e3566078c176532fd42543" target="355ecb2f44cef9b85eab4000eea781fc" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="85" source="c0281943e3e3566078c176532fd42543" target="73de7a64016f48de62aa600ab413fb57" weight="11.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="86" source="45cad84930433827d75db97d0af88f33" target="4d23d9bba280490d99a0808088184d38" weight="18.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="87" source="45cad84930433827d75db97d0af88f33" target="3cdca5d155b682f6b2ead545f25b7726" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="88" source="5f110a5a98c8d77583671fd913d80c37" target="ff8767098a55ac94018470a8c8e8dd9c" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="89" source="5f110a5a98c8d77583671fd913d80c37" target="00b8c3504a7fb3a25826976066ba9711" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="90" source="5f110a5a98c8d77583671fd913d80c37" target="0e37433cf5166e817abd742fb1bfa1ca" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="91" source="5f110a5a98c8d77583671fd913d80c37" target="5f110a5a98c8d77583671fd913d80c37" weight="11.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="92" source="5f110a5a98c8d77583671fd913d80c37" target="d29a8b44fd424d49a9a3fd052f6d2105" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="93" source="823472703eadc53cd1d8c99e5e02264a" target="633c96238b8d07b8a40ea16b4ce8eb53" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="94" source="823472703eadc53cd1d8c99e5e02264a" target="823472703eadc53cd1d8c99e5e02264a" weight="170.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="95" source="9ee597e68021ad5ef823cdffbc218edb" target="5399465c5b23df17b16c2377e865a0b2" weight="8.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="96" source="9ee597e68021ad5ef823cdffbc218edb" target="c114172bee26554a6880e94fd1c6ba76" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="97" source="9ee597e68021ad5ef823cdffbc218edb" target="ecab7930ae6daaae85e0e49cbaaca87d" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="98" source="9ee597e68021ad5ef823cdffbc218edb" target="1725075aee617949c6bd8a1557dd0670" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="99" source="9ee597e68021ad5ef823cdffbc218edb" target="ff0ce68bf0167bce979f6142d9ae7415" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="100" source="9ee597e68021ad5ef823cdffbc218edb" target="9ee597e68021ad5ef823cdffbc218edb" weight="10.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="101" source="9ee597e68021ad5ef823cdffbc218edb" target="2f3a58b0e9be954b04a88a4d195210f3" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="102" source="9ee597e68021ad5ef823cdffbc218edb" target="cf4ad6942be68dde12284907c176e237" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="103" source="9ee597e68021ad5ef823cdffbc218edb" target="267e170be88b02e13da865137e9fe5e4" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="104" source="9ee597e68021ad5ef823cdffbc218edb" target="fca12b2185ef8db41d41989c46743cbe" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="105" source="9ee597e68021ad5ef823cdffbc218edb" target="6716d1d42846ba1b264a77ca5a24b771" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="106" source="9ee597e68021ad5ef823cdffbc218edb" target="161d466665db97a55b7c65c6e1a756a5" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="107" source="9ee597e68021ad5ef823cdffbc218edb" target="38f1eeb72644a26518bcd009bdb4b596" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="108" source="6f536977001fbd1243265d62355bdb7d" target="7976afb00427239d847abdcd93964588" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="109" source="c0bb814ddd6e46e5b51d7355b17e4379" target="731b811d91cfc4522308823d383482e3" weight="15.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="110" source="c0bb814ddd6e46e5b51d7355b17e4379" target="c0bb814ddd6e46e5b51d7355b17e4379" weight="16.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+      <edge id="111" source="c0bb814ddd6e46e5b51d7355b17e4379" target="809d72197f12ae1890bffcb575be7ff3" weight="1.0">
+        <attvalues>
+          <attvalue for="15" value="20060622" />
+        </attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
