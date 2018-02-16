@@ -9,11 +9,47 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 <body>
+  <style type="text/css">
+    body {
+      margin: 0;
+    }
+    #cpp2degree {
+      width: 300px;
+      height: 300px;
+    }
+    #cpp2authority {
+      width: 300px;
+      height: 300px;
+    }
+    #cpp2between {
+      width: 300px;
+      height: 300px;
+    }
+    #cpp2eigen {
+      width: 300px;
+      height: 300px;
+    }
+    #cpp2 {
+      width: 300px;
+      height: 300px;
+    }
+  </style>
   <div class="container">
+    <h1>SigmaJS Demo with Borg-reduced GEXF graphs</h1>
+    <div class="row">Original Graph
+      <div id="cpp2"></div>
+    </div>
     <div class="row">
-      <div class="col"><a href="lesmis.html"> Les Miserables </a></div>
-  <div class="col"><a href="cpp.html"> Canadian Political Parties Filters </a></div>
-</div>
-</div>
+      <div class="col"> Degree Filtering <div id="cpp2degree"></div></div>
+      <div class="col"> Betweenness Filtering <div id="cpp2between"></div></div>
+    </div>
+    <div class="row">
+      <div class="col"> Eigenvector Filtering <div id="cpp2eigen"></div></div>
+      <div class="col"> Authority Filtering <div id="cpp2authority"></div></div>
+    </div>
+  </div>
+  <script src="js/sigma.min.js"></script>
+  <script src="js/sigma.parsers.gexf.min.js"></script>
+  <script src="js/graphs.js"></script>
 </body>
 </html>

@@ -1,0 +1,2954 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft"
+         xmlns:viz="http://www.gexf.net/1.2draft/viz"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.gexf.net/1.2draft
+         http://www.gexf.net/1.2draft/gexf.xsd"
+         version="1.2">
+<!-- Created by igraph -->
+<meta lastmodifieddate="Fri Feb 16 16:19:02">
+<creator>Borg-reducer filtering using Igraph</creator>
+<description> A Filtered Derivative Graph</description>
+</meta>
+  <graph id="G" defaultedgetype="undirected">
+  <attributes class="graph">
+  <attribute id="g_NODES" title="NODES" type="double"/>
+  <attribute id="g_EDGES" title="EDGES" type="double"/>
+  <attribute id="g_AVG_PATH_LENGTH" title="AVG_PATH_LENGTH" type="double"/>
+  <attribute id="g_DIAMETER" title="DIAMETER" type="double"/>
+  <attribute id="g_OVERALL_CLUSTERING" title="OVERALL_CLUSTERING" type="double"/>
+  <attribute id="g_ASSORTATIVITY" title="ASSORTATIVITY" type="double"/>
+  <attribute id="g_DENSITY" title="DENSITY" type="double"/>
+  <attribute id="g_RECIPROCITY" title="RECIPROCITY" type="double"/>
+  <attribute id="g_centralizationAuthority" title="centralizationAuthority" type="double"/>
+  <attribute id="g_centralizationBetweenness" title="centralizationBetweenness" type="double"/>
+  <attribute id="g_centralizationDegree" title="centralizationDegree" type="double"/>
+  <attribute id="g_centralizationHub" title="centralizationHub" type="double"/>
+  <attribute id="g_centralizationIndegree" title="centralizationIndegree" type="double"/>
+  <attribute id="g_centralizationOutdegree" title="centralizationOutdegree" type="double"/>
+  <attribute id="g_centralizationEigenvector" title="centralizationEigenvector" type="double"/>
+  <attribute id="g_centralizationPageRank" title="centralizationPageRank" type="double"/>
+  </attributes>
+  <attributes class="node">
+  <attribute id="v_label" title="label" type="string"></attribute>
+  <attribute id="v_r" title="r" type="double"></attribute>
+  <attribute id="v_g" title="g" type="double"></attribute>
+  <attribute id="v_b" title="b" type="double"></attribute>
+  <attribute id="v_x" title="x" type="double"></attribute>
+  <attribute id="v_y" title="y" type="double"></attribute>
+  <attribute id="v_size" title="size" type="double"></attribute>
+  <attribute id="v_Modularity Class" title="Modularity Class" type="double"></attribute>
+  <attribute id="v_id" title="id" type="string"></attribute>
+  <attribute id="v_Authority" title="Authority" type="double"></attribute>
+  <attribute id="v_Betweenness" title="Betweenness" type="double"></attribute>
+  <attribute id="v_Degree" title="Degree" type="double"></attribute>
+  <attribute id="v_Hub" title="Hub" type="double"></attribute>
+  <attribute id="v_Indegree" title="Indegree" type="double"></attribute>
+  <attribute id="v_Outdegree" title="Outdegree" type="double"></attribute>
+  <attribute id="v_Eigenvector" title="Eigenvector" type="double"></attribute>
+  <attribute id="v_PageRank" title="PageRank" type="double"></attribute>
+  <attribute id="v_WalkTrapModularity" title="WalkTrapModularity" type="double"></attribute>
+  </attributes>
+  <attributes class="edge">
+  <attribute id="e_Edge Label" title="Edge Label" type="string"/>
+  <attribute id="e_weight" title="weight" type="double"/>
+  <attribute id="e_id" title="id" type="string"/>
+  </attributes>
+  <nodes>
+    <node id="n0" label="Valjean">
+    <attvalues>
+      <attvalue for="v_label" value="Valjean" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3175.65" />
+      <attvalue for="v_y" value="5967.58" />
+      <attvalue for="v_size" value="8.72987" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="11" />
+      <attvalue for="v_Authority" value="0.84195" />
+      <attvalue for="v_Betweenness" value="852.735" />
+      <attvalue for="v_Degree" value="30" />
+      <attvalue for="v_Hub" value="0.84195" />
+      <attvalue for="v_Indegree" value="30" />
+      <attvalue for="v_Outdegree" value="30" />
+      <attvalue for="v_Eigenvector" value="0.761182" />
+      <attvalue for="v_PageRank" value="0.0786752" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="8.729870"></viz:size>
+      <viz:position y="5967.583127" x="3175.648043" z="0.0"></viz:position>
+    </node>
+    <node id="n1" label="Gavroche">
+    <attvalues>
+      <attvalue for="v_label" value="Gavroche" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3598.94" />
+      <attvalue for="v_y" value="5692.79" />
+      <attvalue for="v_size" value="6.0206" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="48" />
+      <attvalue for="v_Authority" value="1" />
+      <attvalue for="v_Betweenness" value="239.312" />
+      <attvalue for="v_Degree" value="21" />
+      <attvalue for="v_Hub" value="1" />
+      <attvalue for="v_Indegree" value="21" />
+      <attvalue for="v_Outdegree" value="21" />
+      <attvalue for="v_Eigenvector" value="1" />
+      <attvalue for="v_PageRank" value="0.0419489" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="6.020600"></viz:size>
+      <viz:position y="5692.790368" x="3598.943285" z="0.0"></viz:position>
+    </node>
+    <node id="n2" label="Marius">
+    <attvalues>
+      <attvalue for="v_label" value="Marius" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3434.47" />
+      <attvalue for="v_y" value="5769.33" />
+      <attvalue for="v_size" value="5.11751" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="55" />
+      <attvalue for="v_Authority" value="0.815228" />
+      <attvalue for="v_Betweenness" value="203.888" />
+      <attvalue for="v_Degree" value="18" />
+      <attvalue for="v_Hub" value="0.815228" />
+      <attvalue for="v_Indegree" value="18" />
+      <attvalue for="v_Outdegree" value="18" />
+      <attvalue for="v_Eigenvector" value="0.809184" />
+      <attvalue for="v_PageRank" value="0.0363627" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="5.117510"></viz:size>
+      <viz:position y="5769.329625" x="3434.469520" z="0.0"></viz:position>
+    </node>
+    <node id="n3" label="Javert">
+    <attvalues>
+      <attvalue for="v_label" value="Javert" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3236.5" />
+      <attvalue for="v_y" value="5835.09" />
+      <attvalue for="v_size" value="4.51545" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="27" />
+      <attvalue for="v_Authority" value="0.579586" />
+      <attvalue for="v_Betweenness" value="105.246" />
+      <attvalue for="v_Degree" value="16" />
+      <attvalue for="v_Hub" value="0.579586" />
+      <attvalue for="v_Indegree" value="16" />
+      <attvalue for="v_Outdegree" value="16" />
+      <attvalue for="v_Eigenvector" value="0.544019" />
+      <attvalue for="v_PageRank" value="0.0369604" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="4.515450"></viz:size>
+      <viz:position y="5835.092015" x="3236.500867" z="0.0"></viz:position>
+    </node>
+    <node id="n4" label="Thenardier">
+    <attvalues>
+      <attvalue for="v_label" value="Thenardier" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3271.06" />
+      <attvalue for="v_y" value="5634.05" />
+      <attvalue for="v_size" value="3.91339" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="25" />
+      <attvalue for="v_Authority" value="0.590859" />
+      <attvalue for="v_Betweenness" value="72.4843" />
+      <attvalue for="v_Degree" value="14" />
+      <attvalue for="v_Hub" value="0.590859" />
+      <attvalue for="v_Indegree" value="14" />
+      <attvalue for="v_Outdegree" value="14" />
+      <attvalue for="v_Eigenvector" value="0.556722" />
+      <attvalue for="v_PageRank" value="0.0298297" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="3.913390"></viz:size>
+      <viz:position y="5634.049987" x="3271.055379" z="0.0"></viz:position>
+    </node>
+    <node id="n5" label="Fantine">
+    <attvalues>
+      <attvalue for="v_label" value="Fantine" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3299.98" />
+      <attvalue for="v_y" value="6139.72" />
+      <attvalue for="v_size" value="3.31133" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="23" />
+      <attvalue for="v_Authority" value="0.282379" />
+      <attvalue for="v_Betweenness" value="165.952" />
+      <attvalue for="v_Degree" value="12" />
+      <attvalue for="v_Hub" value="0.282379" />
+      <attvalue for="v_Indegree" value="12" />
+      <attvalue for="v_Outdegree" value="12" />
+      <attvalue for="v_Eigenvector" value="0.24109" />
+      <attvalue for="v_PageRank" value="0.0319248" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="3.311330"></viz:size>
+      <viz:position y="6139.720864" x="3299.975987" z="0.0"></viz:position>
+    </node>
+    <node id="n6" label="Enjolras">
+    <attvalues>
+      <attvalue for="v_label" value="Enjolras" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3581.53" />
+      <attvalue for="v_y" value="5883.66" />
+      <attvalue for="v_size" value="4.21442" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="58" />
+      <attvalue for="v_Authority" value="0.840619" />
+      <attvalue for="v_Betweenness" value="84.9098" />
+      <attvalue for="v_Degree" value="15" />
+      <attvalue for="v_Hub" value="0.840619" />
+      <attvalue for="v_Indegree" value="15" />
+      <attvalue for="v_Outdegree" value="15" />
+      <attvalue for="v_Eigenvector" value="0.852215" />
+      <attvalue for="v_PageRank" value="0.0275429" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="4.214420"></viz:size>
+      <viz:position y="5883.660593" x="3581.534683" z="0.0"></viz:position>
+    </node>
+    <node id="n7" label="Courfeyrac">
+    <attvalues>
+      <attvalue for="v_label" value="Courfeyrac" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3745.29" />
+      <attvalue for="v_y" value="5745.96" />
+      <attvalue for="v_size" value="3.61236" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="62" />
+      <attvalue for="v_Authority" value="0.731416" />
+      <attvalue for="v_Betweenness" value="10.43" />
+      <attvalue for="v_Degree" value="13" />
+      <attvalue for="v_Hub" value="0.731416" />
+      <attvalue for="v_Indegree" value="13" />
+      <attvalue for="v_Outdegree" value="13" />
+      <attvalue for="v_Eigenvector" value="0.751088" />
+      <attvalue for="v_PageRank" value="0.0233131" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="3.612360"></viz:size>
+      <viz:position y="5745.964218" x="3745.291026" z="0.0"></viz:position>
+    </node>
+    <node id="n8" label="Bossuet">
+    <attvalues>
+      <attvalue for="v_label" value="Bossuet" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3634.08" />
+      <attvalue for="v_y" value="5996.18" />
+      <attvalue for="v_size" value="3.61236" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="64" />
+      <attvalue for="v_Authority" value="0.761818" />
+      <attvalue for="v_Betweenness" value="56.3368" />
+      <attvalue for="v_Degree" value="13" />
+      <attvalue for="v_Hub" value="0.761818" />
+      <attvalue for="v_Indegree" value="13" />
+      <attvalue for="v_Outdegree" value="13" />
+      <attvalue for="v_Eigenvector" value="0.776633" />
+      <attvalue for="v_PageRank" value="0.023795" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="3.612360"></viz:size>
+      <viz:position y="5996.181700" x="3634.083370" z="0.0"></viz:position>
+    </node>
+    <node id="n9" label="Bahorel">
+    <attvalues>
+      <attvalue for="v_label" value="Bahorel" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3779.97" />
+      <attvalue for="v_y" value="5975.67" />
+      <attvalue for="v_size" value="3.31133" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="63" />
+      <attvalue for="v_Authority" value="0.697081" />
+      <attvalue for="v_Betweenness" value="4.42381" />
+      <attvalue for="v_Degree" value="12" />
+      <attvalue for="v_Hub" value="0.697081" />
+      <attvalue for="v_Indegree" value="12" />
+      <attvalue for="v_Outdegree" value="12" />
+      <attvalue for="v_Eigenvector" value="0.717561" />
+      <attvalue for="v_PageRank" value="0.0215923" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="3.311330"></viz:size>
+      <viz:position y="5975.667261" x="3779.973836" z="0.0"></viz:position>
+    </node>
+    <node id="n10" label="Joly">
+    <attvalues>
+      <attvalue for="v_label" value="Joly" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3893.82" />
+      <attvalue for="v_y" value="5896.67" />
+      <attvalue for="v_size" value="3.31133" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="65" />
+      <attvalue for="v_Authority" value="0.697081" />
+      <attvalue for="v_Betweenness" value="4.42381" />
+      <attvalue for="v_Degree" value="12" />
+      <attvalue for="v_Hub" value="0.697081" />
+      <attvalue for="v_Indegree" value="12" />
+      <attvalue for="v_Outdegree" value="12" />
+      <attvalue for="v_Eigenvector" value="0.717561" />
+      <attvalue for="v_PageRank" value="0.0215923" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="3.311330"></viz:size>
+      <viz:position y="5896.672474" x="3893.823802" z="0.0"></viz:position>
+    </node>
+    <node id="n11" label="MmeThenardier">
+    <attvalues>
+      <attvalue for="v_label" value="MmeThenardier" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3150.98" />
+      <attvalue for="v_y" value="5680.26" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="24" />
+      <attvalue for="v_Authority" value="0.384704" />
+      <attvalue for="v_Betweenness" value="43.3268" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.384704" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.354405" />
+      <attvalue for="v_PageRank" value="0.0228967" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5680.257992" x="3150.977196" z="0.0"></viz:position>
+    </node>
+    <node id="n12" label="Cosette">
+    <attvalues>
+      <attvalue for="v_label" value="Cosette" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3080.33" />
+      <attvalue for="v_y" value="5817.59" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="26" />
+      <attvalue for="v_Authority" value="0.34933" />
+      <attvalue for="v_Betweenness" value="37.4716" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.34933" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.318892" />
+      <attvalue for="v_PageRank" value="0.0240373" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5817.588910" x="3080.325684" z="0.0"></viz:position>
+    </node>
+    <node id="n13" label="Eponine">
+    <attvalues>
+      <attvalue for="v_label" value="Eponine" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3563.46" />
+      <attvalue for="v_y" value="5481.42" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="41" />
+      <attvalue for="v_Authority" value="0.446558" />
+      <attvalue for="v_Betweenness" value="14.1758" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.446558" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.432022" />
+      <attvalue for="v_PageRank" value="0.020185" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5481.422625" x="3563.458920" z="0.0"></viz:position>
+    </node>
+    <node id="n14" label="Mabeuf">
+    <attvalues>
+      <attvalue for="v_label" value="Mabeuf" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3771.6" />
+      <attvalue for="v_y" value="5620.2" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="57" />
+      <attvalue for="v_Authority" value="0.613622" />
+      <attvalue for="v_Betweenness" value="2.55833" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.613622" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.624331" />
+      <attvalue for="v_PageRank" value="0.018498" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5620.196039" x="3771.600002" z="0.0"></viz:position>
+    </node>
+    <node id="n15" label="Combeferre">
+    <attvalues>
+      <attvalue for="v_label" value="Combeferre" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3716.04" />
+      <attvalue for="v_y" value="5883.77" />
+      <attvalue for="v_size" value="3.0103" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="59" />
+      <attvalue for="v_Authority" value="0.66304" />
+      <attvalue for="v_Betweenness" value="2.45253" />
+      <attvalue for="v_Degree" value="11" />
+      <attvalue for="v_Hub" value="0.66304" />
+      <attvalue for="v_Indegree" value="11" />
+      <attvalue for="v_Outdegree" value="11" />
+      <attvalue for="v_Eigenvector" value="0.682163" />
+      <attvalue for="v_PageRank" value="0.0199373" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="3.010300"></viz:size>
+      <viz:position y="5883.768562" x="3716.037692" z="0.0"></viz:position>
+    </node>
+    <node id="n16" label="Feuilly">
+    <attvalues>
+      <attvalue for="v_label" value="Feuilly" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3837.47" />
+      <attvalue for="v_y" value="5810.77" />
+      <attvalue for="v_size" value="3.0103" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="61" />
+      <attvalue for="v_Authority" value="0.66304" />
+      <attvalue for="v_Betweenness" value="2.45253" />
+      <attvalue for="v_Degree" value="11" />
+      <attvalue for="v_Hub" value="0.66304" />
+      <attvalue for="v_Indegree" value="11" />
+      <attvalue for="v_Outdegree" value="11" />
+      <attvalue for="v_Eigenvector" value="0.682163" />
+      <attvalue for="v_PageRank" value="0.0199373" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="3.010300"></viz:size>
+      <viz:position y="5810.767866" x="3837.466047" z="0.0"></viz:position>
+    </node>
+    <node id="n17" label="Myriel">
+    <attvalues>
+      <attvalue for="v_label" value="Myriel" />
+      <attvalue for="v_r" value="217" />
+      <attvalue for="v_g" value="80" />
+      <attvalue for="v_b" value="35" />
+      <attvalue for="v_x" value="2697.51" />
+      <attvalue for="v_y" value="5869.78" />
+      <attvalue for="v_size" value="1.50515" />
+      <attvalue for="v_Modularity Class" value="0" />
+      <attvalue for="v_id" value="0" />
+      <attvalue for="v_Authority" value="0.0885112" />
+      <attvalue for="v_Betweenness" value="218" />
+      <attvalue for="v_Degree" value="6" />
+      <attvalue for="v_Hub" value="0.0885112" />
+      <attvalue for="v_Indegree" value="6" />
+      <attvalue for="v_Outdegree" value="6" />
+      <attvalue for="v_Eigenvector" value="0.0719777" />
+      <attvalue for="v_PageRank" value="0.0341718" />
+      <attvalue for="v_WalkTrapModularity" value="1" />
+    </attvalues>
+      <viz:color r="217" g="80" b="35"></viz:color>
+      <viz:size value="1.505150"></viz:size>
+      <viz:position y="5869.779490" x="2697.505645" z="0.0"></viz:position>
+    </node>
+    <node id="n18" label="Grantaire">
+    <attvalues>
+      <attvalue for="v_label" value="Grantaire" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3896.52" />
+      <attvalue for="v_y" value="6032.31" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="66" />
+      <attvalue for="v_Authority" value="0.587218" />
+      <attvalue for="v_Betweenness" value="0.428571" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.587218" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.606312" />
+      <attvalue for="v_PageRank" value="0.0182786" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="6032.306009" x="3896.515141" z="0.0"></viz:position>
+    </node>
+    <node id="n19" label="Gueulemer">
+    <attvalues>
+      <attvalue for="v_label" value="Gueulemer" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3267.9" />
+      <attvalue for="v_y" value="5468.16" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="68" />
+      <attvalue for="v_Authority" value="0.457539" />
+      <attvalue for="v_Betweenness" value="10.0963" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.457539" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.441381" />
+      <attvalue for="v_PageRank" value="0.0211774" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5468.158364" x="3267.897280" z="0.0"></viz:position>
+    </node>
+    <node id="n20" label="Babet">
+    <attvalues>
+      <attvalue for="v_label" value="Babet" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3359.6" />
+      <attvalue for="v_y" value="5584.03" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="69" />
+      <attvalue for="v_Authority" value="0.457539" />
+      <attvalue for="v_Betweenness" value="10.0963" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.457539" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.441381" />
+      <attvalue for="v_PageRank" value="0.0211774" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5584.028582" x="3359.595543" z="0.0"></viz:position>
+    </node>
+    <node id="n21" label="Claquesous">
+    <attvalues>
+      <attvalue for="v_label" value="Claquesous" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3458.79" />
+      <attvalue for="v_y" value="5617" />
+      <attvalue for="v_size" value="2.70927" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="70" />
+      <attvalue for="v_Authority" value="0.445284" />
+      <attvalue for="v_Betweenness" value="10.5511" />
+      <attvalue for="v_Degree" value="10" />
+      <attvalue for="v_Hub" value="0.445284" />
+      <attvalue for="v_Indegree" value="10" />
+      <attvalue for="v_Outdegree" value="10" />
+      <attvalue for="v_Eigenvector" value="0.429912" />
+      <attvalue for="v_PageRank" value="0.021051" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.709270"></viz:size>
+      <viz:position y="5617.002960" x="3458.790761" z="0.0"></viz:position>
+    </node>
+    <node id="n22" label="Tholomyes">
+    <attvalues>
+      <attvalue for="v_label" value="Tholomyes" />
+      <attvalue for="v_r" value="59" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="209" />
+      <attvalue for="v_x" value="3462.02" />
+      <attvalue for="v_y" value="6159.83" />
+      <attvalue for="v_size" value="1.50515" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="16" />
+      <attvalue for="v_Authority" value="0.151469" />
+      <attvalue for="v_Betweenness" value="48.2487" />
+      <attvalue for="v_Degree" value="6" />
+      <attvalue for="v_Hub" value="0.151469" />
+      <attvalue for="v_Indegree" value="6" />
+      <attvalue for="v_Outdegree" value="6" />
+      <attvalue for="v_Eigenvector" value="0.12453" />
+      <attvalue for="v_PageRank" value="0.0165877" />
+      <attvalue for="v_WalkTrapModularity" value="5" />
+    </attvalues>
+      <viz:color r="59" g="217" b="209"></viz:color>
+      <viz:size value="1.505150"></viz:size>
+      <viz:position y="6159.829179" x="3462.024765" z="0.0"></viz:position>
+    </node>
+    <node id="n23" label="Prouvaire">
+    <attvalues>
+      <attvalue for="v_label" value="Prouvaire" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3772.79" />
+      <attvalue for="v_y" value="6116.92" />
+      <attvalue for="v_size" value="2.40824" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="60" />
+      <attvalue for="v_Authority" value="0.553178" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="9" />
+      <attvalue for="v_Hub" value="0.553178" />
+      <attvalue for="v_Indegree" value="9" />
+      <attvalue for="v_Outdegree" value="9" />
+      <attvalue for="v_Eigenvector" value="0.570914" />
+      <attvalue for="v_PageRank" value="0.0166189" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="2.408240"></viz:size>
+      <viz:position y="6116.923135" x="3772.792213" z="0.0"></viz:position>
+    </node>
+    <node id="n24" label="Montparnasse">
+    <attvalues>
+      <attvalue for="v_label" value="Montparnasse" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3392.75" />
+      <attvalue for="v_y" value="5445.77" />
+      <attvalue for="v_size" value="2.40824" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="71" />
+      <attvalue for="v_Authority" value="0.427959" />
+      <attvalue for="v_Betweenness" value="7.68538" />
+      <attvalue for="v_Degree" value="9" />
+      <attvalue for="v_Hub" value="0.427959" />
+      <attvalue for="v_Indegree" value="9" />
+      <attvalue for="v_Outdegree" value="9" />
+      <attvalue for="v_Eigenvector" value="0.413877" />
+      <attvalue for="v_PageRank" value="0.0192164" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="2.408240"></viz:size>
+      <viz:position y="5445.770949" x="3392.746909" z="0.0"></viz:position>
+    </node>
+    <node id="n25" label="Bamatabois">
+    <attvalues>
+      <attvalue for="v_label" value="Bamatabois" />
+      <attvalue for="v_r" value="67" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="59" />
+      <attvalue for="v_x" value="3169.76" />
+      <attvalue for="v_y" value="6244.55" />
+      <attvalue for="v_size" value="1.80618" />
+      <attvalue for="v_Modularity Class" value="3" />
+      <attvalue for="v_id" value="29" />
+      <attvalue for="v_Authority" value="0.195916" />
+      <attvalue for="v_Betweenness" value="12.3333" />
+      <attvalue for="v_Degree" value="7" />
+      <attvalue for="v_Hub" value="0.195916" />
+      <attvalue for="v_Indegree" value="7" />
+      <attvalue for="v_Outdegree" value="7" />
+      <attvalue for="v_Eigenvector" value="0.165183" />
+      <attvalue for="v_PageRank" value="0.0189092" />
+      <attvalue for="v_WalkTrapModularity" value="6" />
+    </attvalues>
+      <viz:color r="67" g="217" b="59"></viz:color>
+      <viz:size value="1.806180"></viz:size>
+      <viz:position y="6244.551090" x="3169.759391" z="0.0"></viz:position>
+    </node>
+    <node id="n26" label="Fameuil">
+    <attvalues>
+      <attvalue for="v_label" value="Fameuil" />
+      <attvalue for="v_r" value="59" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="209" />
+      <attvalue for="v_x" value="3605.76" />
+      <attvalue for="v_y" value="6432.49" />
+      <attvalue for="v_size" value="0.90309" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="18" />
+      <attvalue for="v_Authority" value="0.0619274" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="4" />
+      <attvalue for="v_Hub" value="0.0619274" />
+      <attvalue for="v_Indegree" value="4" />
+      <attvalue for="v_Outdegree" value="4" />
+      <attvalue for="v_Eigenvector" value="0.0369848" />
+      <attvalue for="v_PageRank" value="0.0125173" />
+      <attvalue for="v_WalkTrapModularity" value="5" />
+    </attvalues>
+      <viz:color r="59" g="217" b="209"></viz:color>
+      <viz:size value="0.903090"></viz:size>
+      <viz:position y="6432.492495" x="3605.762812" z="0.0"></viz:position>
+    </node>
+    <node id="n27" label="Favourite">
+    <attvalues>
+      <attvalue for="v_label" value="Favourite" />
+      <attvalue for="v_r" value="59" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="209" />
+      <attvalue for="v_x" value="3475.64" />
+      <attvalue for="v_y" value="6485.94" />
+      <attvalue for="v_size" value="0.90309" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="20" />
+      <attvalue for="v_Authority" value="0.0619274" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="4" />
+      <attvalue for="v_Hub" value="0.0619274" />
+      <attvalue for="v_Indegree" value="4" />
+      <attvalue for="v_Outdegree" value="4" />
+      <attvalue for="v_Eigenvector" value="0.0369848" />
+      <attvalue for="v_PageRank" value="0.0125173" />
+      <attvalue for="v_WalkTrapModularity" value="5" />
+    </attvalues>
+      <viz:color r="59" g="217" b="209"></viz:color>
+      <viz:size value="0.903090"></viz:size>
+      <viz:position y="6485.935472" x="3475.644235" z="0.0"></viz:position>
+    </node>
+    <node id="n28" label="Dahlia">
+    <attvalues>
+      <attvalue for="v_label" value="Dahlia" />
+      <attvalue for="v_r" value="59" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="209" />
+      <attvalue for="v_x" value="3687.8" />
+      <attvalue for="v_y" value="6325.53" />
+      <attvalue for="v_size" value="0.90309" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="21" />
+      <attvalue for="v_Authority" value="0.0619274" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="4" />
+      <attvalue for="v_Hub" value="0.0619274" />
+      <attvalue for="v_Indegree" value="4" />
+      <attvalue for="v_Outdegree" value="4" />
+      <attvalue for="v_Eigenvector" value="0.0369848" />
+      <attvalue for="v_PageRank" value="0.0125173" />
+      <attvalue for="v_WalkTrapModularity" value="5" />
+    </attvalues>
+      <viz:color r="59" g="217" b="209"></viz:color>
+      <viz:size value="0.903090"></viz:size>
+      <viz:position y="6325.533377" x="3687.801756" z="0.0"></viz:position>
+    </node>
+    <node id="n29" label="Gillenormand">
+    <attvalues>
+      <attvalue for="v_label" value="Gillenormand" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2924.04" />
+      <attvalue for="v_y" value="5672.51" />
+      <attvalue for="v_size" value="1.50515" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="49" />
+      <attvalue for="v_Authority" value="0.205748" />
+      <attvalue for="v_Betweenness" value="28.6979" />
+      <attvalue for="v_Degree" value="6" />
+      <attvalue for="v_Hub" value="0.205748" />
+      <attvalue for="v_Indegree" value="6" />
+      <attvalue for="v_Outdegree" value="6" />
+      <attvalue for="v_Eigenvector" value="0.189245" />
+      <attvalue for="v_PageRank" value="0.0161231" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="1.505150"></viz:size>
+      <viz:position y="5672.505580" x="2924.035193" z="0.0"></viz:position>
+    </node>
+    <node id="n30" label="MlleGillenormand">
+    <attvalues>
+      <attvalue for="v_label" value="MlleGillenormand" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3033.5" />
+      <attvalue for="v_y" value="5567" />
+      <attvalue for="v_size" value="1.50515" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="51" />
+      <attvalue for="v_Authority" value="0.198737" />
+      <attvalue for="v_Betweenness" value="45.6903" />
+      <attvalue for="v_Degree" value="6" />
+      <attvalue for="v_Hub" value="0.198737" />
+      <attvalue for="v_Indegree" value="6" />
+      <attvalue for="v_Outdegree" value="6" />
+      <attvalue for="v_Eigenvector" value="0.187686" />
+      <attvalue for="v_PageRank" value="0.0163964" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="1.505150"></viz:size>
+      <viz:position y="5567.003927" x="3033.495757" z="0.0"></viz:position>
+    </node>
+    <node id="n31" label="Brujon">
+    <attvalues>
+      <attvalue for="v_label" value="Brujon" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3514.02" />
+      <attvalue for="v_y" value="5346.06" />
+      <attvalue for="v_size" value="1.80618" />
+      <attvalue for="v_Modularity Class" value="7" />
+      <attvalue for="v_id" value="75" />
+      <attvalue for="v_Authority" value="0.318659" />
+      <attvalue for="v_Betweenness" value="0.75" />
+      <attvalue for="v_Degree" value="7" />
+      <attvalue for="v_Hub" value="0.318659" />
+      <attvalue for="v_Indegree" value="7" />
+      <attvalue for="v_Outdegree" value="7" />
+      <attvalue for="v_Eigenvector" value="0.312586" />
+      <attvalue for="v_PageRank" value="0.0150153" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="1.806180"></viz:size>
+      <viz:position y="5346.060729" x="3514.017027" z="0.0"></viz:position>
+    </node>
+    <node id="n32" label="MmeHucheloup">
+    <attvalues>
+      <attvalue for="v_label" value="MmeHucheloup" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3923.24" />
+      <attvalue for="v_y" value="5721.39" />
+      <attvalue for="v_size" value="1.80618" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="76" />
+      <attvalue for="v_Authority" value="0.442724" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="7" />
+      <attvalue for="v_Hub" value="0.442724" />
+      <attvalue for="v_Indegree" value="7" />
+      <attvalue for="v_Outdegree" value="7" />
+      <attvalue for="v_Eigenvector" value="0.456127" />
+      <attvalue for="v_PageRank" value="0.0135376" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="1.806180"></viz:size>
+      <viz:position y="5721.391396" x="3923.240237" z="0.0"></viz:position>
+    </node>
+    <node id="n33" label="Judge">
+    <attvalues>
+      <attvalue for="v_label" value="Judge" />
+      <attvalue for="v_r" value="67" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="59" />
+      <attvalue for="v_x" value="3178.43" />
+      <attvalue for="v_y" value="6392.75" />
+      <attvalue for="v_size" value="1.20412" />
+      <attvalue for="v_Modularity Class" value="3" />
+      <attvalue for="v_id" value="34" />
+      <attvalue for="v_Authority" value="0.12964" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="5" />
+      <attvalue for="v_Hub" value="0.12964" />
+      <attvalue for="v_Indegree" value="5" />
+      <attvalue for="v_Outdegree" value="5" />
+      <attvalue for="v_Eigenvector" value="0.104254" />
+      <attvalue for="v_PageRank" value="0.0145132" />
+      <attvalue for="v_WalkTrapModularity" value="6" />
+    </attvalues>
+      <viz:color r="67" g="217" b="59"></viz:color>
+      <viz:size value="1.204120"></viz:size>
+      <viz:position y="6392.747227" x="3178.430662" z="0.0"></viz:position>
+    </node>
+    <node id="n34" label="Champmathieu">
+    <attvalues>
+      <attvalue for="v_label" value="Champmathieu" />
+      <attvalue for="v_r" value="67" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="59" />
+      <attvalue for="v_x" value="3025.17" />
+      <attvalue for="v_y" value="6381.48" />
+      <attvalue for="v_size" value="1.20412" />
+      <attvalue for="v_Modularity Class" value="3" />
+      <attvalue for="v_id" value="35" />
+      <attvalue for="v_Authority" value="0.12964" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="5" />
+      <attvalue for="v_Hub" value="0.12964" />
+      <attvalue for="v_Indegree" value="5" />
+      <attvalue for="v_Outdegree" value="5" />
+      <attvalue for="v_Eigenvector" value="0.104254" />
+      <attvalue for="v_PageRank" value="0.0145132" />
+      <attvalue for="v_WalkTrapModularity" value="6" />
+    </attvalues>
+      <viz:color r="67" g="217" b="59"></viz:color>
+      <viz:size value="1.204120"></viz:size>
+      <viz:position y="6381.479987" x="3025.165584" z="0.0"></viz:position>
+    </node>
+    <node id="n35" label="Chenildieu">
+    <attvalues>
+      <attvalue for="v_label" value="Chenildieu" />
+      <attvalue for="v_r" value="67" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="59" />
+      <attvalue for="v_x" value="3258.58" />
+      <attvalue for="v_y" value="6498.85" />
+      <attvalue for="v_size" value="1.20412" />
+      <attvalue for="v_Modularity Class" value="3" />
+      <attvalue for="v_id" value="37" />
+      <attvalue for="v_Authority" value="0.12964" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="5" />
+      <attvalue for="v_Hub" value="0.12964" />
+      <attvalue for="v_Indegree" value="5" />
+      <attvalue for="v_Outdegree" value="5" />
+      <attvalue for="v_Eigenvector" value="0.104254" />
+      <attvalue for="v_PageRank" value="0.0145132" />
+      <attvalue for="v_WalkTrapModularity" value="6" />
+    </attvalues>
+      <viz:color r="67" g="217" b="59"></viz:color>
+      <viz:size value="1.204120"></viz:size>
+      <viz:position y="6498.846208" x="3258.582641" z="0.0"></viz:position>
+    </node>
+    <node id="n36" label="Cochepaille">
+    <attvalues>
+      <attvalue for="v_label" value="Cochepaille" />
+      <attvalue for="v_r" value="67" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="59" />
+      <attvalue for="v_x" value="3092.95" />
+      <attvalue for="v_y" value="6501.35" />
+      <attvalue for="v_size" value="1.20412" />
+      <attvalue for="v_Modularity Class" value="3" />
+      <attvalue for="v_id" value="38" />
+      <attvalue for="v_Authority" value="0.12964" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="5" />
+      <attvalue for="v_Hub" value="0.12964" />
+      <attvalue for="v_Indegree" value="5" />
+      <attvalue for="v_Outdegree" value="5" />
+      <attvalue for="v_Eigenvector" value="0.104254" />
+      <attvalue for="v_PageRank" value="0.0145132" />
+      <attvalue for="v_WalkTrapModularity" value="6" />
+    </attvalues>
+      <viz:color r="67" g="217" b="59"></viz:color>
+      <viz:size value="1.204120"></viz:size>
+      <viz:position y="6501.349299" x="3092.950387" z="0.0"></viz:position>
+    </node>
+    <node id="n37" label="Fauchelevent">
+    <attvalues>
+      <attvalue for="v_label" value="Fauchelevent" />
+      <attvalue for="v_r" value="123" />
+      <attvalue for="v_g" value="35" />
+      <attvalue for="v_b" value="217" />
+      <attvalue for="v_x" value="2914.51" />
+      <attvalue for="v_y" value="5500.2" />
+      <attvalue for="v_size" value="0.60206" />
+      <attvalue for="v_Modularity Class" value="4" />
+      <attvalue for="v_id" value="28" />
+      <attvalue for="v_Authority" value="0.125994" />
+      <attvalue for="v_Betweenness" value="56" />
+      <attvalue for="v_Degree" value="3" />
+      <attvalue for="v_Hub" value="0.125994" />
+      <attvalue for="v_Indegree" value="3" />
+      <attvalue for="v_Outdegree" value="3" />
+      <attvalue for="v_Eigenvector" value="0.110596" />
+      <attvalue for="v_PageRank" value="0.011825" />
+      <attvalue for="v_WalkTrapModularity" value="3" />
+    </attvalues>
+      <viz:color r="123" g="35" b="217"></viz:color>
+      <viz:size value="0.602060"></viz:size>
+      <viz:position y="5500.203563" x="2914.505193" z="0.0"></viz:position>
+    </node>
+    <node id="n38" label="Simplice">
+    <attvalues>
+      <attvalue for="v_label" value="Simplice" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3025.68" />
+      <attvalue for="v_y" value="6175.79" />
+      <attvalue for="v_size" value="0.90309" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="31" />
+      <attvalue for="v_Authority" value="0.144889" />
+      <attvalue for="v_Betweenness" value="18.3052" />
+      <attvalue for="v_Degree" value="4" />
+      <attvalue for="v_Hub" value="0.144889" />
+      <attvalue for="v_Indegree" value="4" />
+      <attvalue for="v_Outdegree" value="4" />
+      <attvalue for="v_Eigenvector" value="0.132743" />
+      <attvalue for="v_PageRank" value="0.0122024" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.903090"></viz:size>
+      <viz:position y="6175.792845" x="3025.684928" z="0.0"></viz:position>
+    </node>
+    <node id="n39" label="LtGillenormand">
+    <attvalues>
+      <attvalue for="v_label" value="LtGillenormand" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3076.72" />
+      <attvalue for="v_y" value="5414.76" />
+      <attvalue for="v_size" value="0.90309" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="54" />
+      <attvalue for="v_Authority" value="0.130691" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="4" />
+      <attvalue for="v_Hub" value="0.130691" />
+      <attvalue for="v_Indegree" value="4" />
+      <attvalue for="v_Outdegree" value="4" />
+      <attvalue for="v_Eigenvector" value="0.126624" />
+      <attvalue for="v_PageRank" value="0.0109534" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.903090"></viz:size>
+      <viz:position y="5414.758222" x="3076.719924" z="0.0"></viz:position>
+    </node>
+    <node id="n40" label="MmeMagloire">
+    <attvalues>
+      <attvalue for="v_label" value="MmeMagloire" />
+      <attvalue for="v_r" value="217" />
+      <attvalue for="v_g" value="80" />
+      <attvalue for="v_b" value="35" />
+      <attvalue for="v_x" value="2776.09" />
+      <attvalue for="v_y" value="6125.92" />
+      <attvalue for="v_size" value="0.30103" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="3" />
+      <attvalue for="v_Authority" value="0.0845432" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="2" />
+      <attvalue for="v_Hub" value="0.0845432" />
+      <attvalue for="v_Indegree" value="2" />
+      <attvalue for="v_Outdegree" value="2" />
+      <attvalue for="v_Eigenvector" value="0.0700979" />
+      <attvalue for="v_PageRank" value="0.00965635" />
+      <attvalue for="v_WalkTrapModularity" value="1" />
+    </attvalues>
+      <viz:color r="217" g="80" b="35"></viz:color>
+      <viz:size value="0.301030"></viz:size>
+      <viz:position y="6125.922698" x="2776.093991" z="0.0"></viz:position>
+    </node>
+    <node id="n41" label="Pontmercy">
+    <attvalues>
+      <attvalue for="v_label" value="Pontmercy" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3240.14" />
+      <attvalue for="v_y" value="5268.99" />
+      <attvalue for="v_size" value="0.60206" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="39" />
+      <attvalue for="v_Authority" value="0.119324" />
+      <attvalue for="v_Betweenness" value="14.7042" />
+      <attvalue for="v_Degree" value="3" />
+      <attvalue for="v_Hub" value="0.119324" />
+      <attvalue for="v_Indegree" value="3" />
+      <attvalue for="v_Outdegree" value="3" />
+      <attvalue for="v_Eigenvector" value="0.117078" />
+      <attvalue for="v_PageRank" value="0.00932346" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.602060"></viz:size>
+      <viz:position y="5268.994412" x="3240.136469" z="0.0"></viz:position>
+    </node>
+    <node id="n42" label="Toussaint">
+    <attvalues>
+      <attvalue for="v_label" value="Toussaint" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2877.1" />
+      <attvalue for="v_y" value="5832.14" />
+      <attvalue for="v_size" value="0.60206" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="72" />
+      <attvalue for="v_Authority" value="0.147502" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="3" />
+      <attvalue for="v_Hub" value="0.147502" />
+      <attvalue for="v_Indegree" value="3" />
+      <attvalue for="v_Outdegree" value="3" />
+      <attvalue for="v_Eigenvector" value="0.136643" />
+      <attvalue for="v_PageRank" value="0.00882203" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.602060"></viz:size>
+      <viz:position y="5832.141743" x="2877.099329" z="0.0"></viz:position>
+    </node>
+    <node id="n43" label="Marguerite">
+    <attvalues>
+      <attvalue for="v_label" value="Marguerite" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3351" />
+      <attvalue for="v_y" value="6352.59" />
+      <attvalue for="v_size" value="0.30103" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="12" />
+      <attvalue for="v_Authority" value="0.0936492" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="2" />
+      <attvalue for="v_Hub" value="0.0936492" />
+      <attvalue for="v_Indegree" value="2" />
+      <attvalue for="v_Outdegree" value="2" />
+      <attvalue for="v_Eigenvector" value="0.0843261" />
+      <attvalue for="v_PageRank" value="0.00707668" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.301030"></viz:size>
+      <viz:position y="6352.594325" x="3350.995373" z="0.0"></viz:position>
+    </node>
+    <node id="n44" label="Perpetue">
+    <attvalues>
+      <attvalue for="v_label" value="Perpetue" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2894.95" />
+      <attvalue for="v_y" value="6402.59" />
+      <attvalue for="v_size" value="0.30103" />
+      <attvalue for="v_Modularity Class" value="2" />
+      <attvalue for="v_id" value="30" />
+      <attvalue for="v_Authority" value="0.0355886" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="2" />
+      <attvalue for="v_Hub" value="0.0355886" />
+      <attvalue for="v_Indegree" value="2" />
+      <attvalue for="v_Outdegree" value="2" />
+      <attvalue for="v_Eigenvector" value="0.0314525" />
+      <attvalue for="v_PageRank" value="0.00744057" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.301030"></viz:size>
+      <viz:position y="6402.590418" x="2894.950864" z="0.0"></viz:position>
+    </node>
+    <node id="n45" label="Woman1">
+    <attvalues>
+      <attvalue for="v_label" value="Woman1" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2965.44" />
+      <attvalue for="v_y" value="6031.85" />
+      <attvalue for="v_size" value="0.30103" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="33" />
+      <attvalue for="v_Authority" value="0.118405" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="2" />
+      <attvalue for="v_Hub" value="0.118405" />
+      <attvalue for="v_Indegree" value="2" />
+      <attvalue for="v_Outdegree" value="2" />
+      <attvalue for="v_Eigenvector" value="0.109813" />
+      <attvalue for="v_PageRank" value="0.00677886" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.301030"></viz:size>
+      <viz:position y="6031.854621" x="2965.438636" z="0.0"></viz:position>
+    </node>
+    <node id="n46" label="MmeBurgon">
+    <attvalues>
+      <attvalue for="v_label" value="MmeBurgon" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3757.51" />
+      <attvalue for="v_y" value="5378.44" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="5" />
+      <attvalue for="v_id" value="47" />
+      <attvalue for="v_Authority" value="0.0838753" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0838753" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.0841349" />
+      <attvalue for="v_PageRank" value="0.00428414" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5378.443190" x="3757.506732" z="0.0"></viz:position>
+    </node>
+    <node id="n47" label="Magnon">
+    <attvalues>
+      <attvalue for="v_label" value="Magnon" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2768.81" />
+      <attvalue for="v_y" value="5480.05" />
+      <attvalue for="v_size" value="0.30103" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="50" />
+      <attvalue for="v_Authority" value="0.0491807" />
+      <attvalue for="v_Betweenness" value="0.333333" />
+      <attvalue for="v_Degree" value="2" />
+      <attvalue for="v_Hub" value="0.0491807" />
+      <attvalue for="v_Indegree" value="2" />
+      <attvalue for="v_Outdegree" value="2" />
+      <attvalue for="v_Eigenvector" value="0.04574" />
+      <attvalue for="v_PageRank" value="0.00681653" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.301030"></viz:size>
+      <viz:position y="5480.054589" x="2768.808742" z="0.0"></viz:position>
+    </node>
+    <node id="n48" label="MmePontmercy">
+    <attvalues>
+      <attvalue for="v_label" value="MmePontmercy" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2916.73" />
+      <attvalue for="v_y" value="5286.68" />
+      <attvalue for="v_size" value="0.30103" />
+      <attvalue for="v_Modularity Class" value="6" />
+      <attvalue for="v_id" value="52" />
+      <attvalue for="v_Authority" value="0.0264924" />
+      <attvalue for="v_Betweenness" value="0.5" />
+      <attvalue for="v_Degree" value="2" />
+      <attvalue for="v_Hub" value="0.0264924" />
+      <attvalue for="v_Indegree" value="2" />
+      <attvalue for="v_Outdegree" value="2" />
+      <attvalue for="v_Eigenvector" value="0.0256412" />
+      <attvalue for="v_PageRank" value="0.00755067" />
+      <attvalue for="v_WalkTrapModularity" value="2" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.301030"></viz:size>
+      <viz:position y="5286.679220" x="2916.726231" z="0.0"></viz:position>
+    </node>
+    <node id="n49" label="Child2">
+    <attvalues>
+      <attvalue for="v_label" value="Child2" />
+      <attvalue for="v_r" value="219" />
+      <attvalue for="v_g" value="59" />
+      <attvalue for="v_b" value="147" />
+      <attvalue for="v_x" value="3486.47" />
+      <attvalue for="v_y" value="5210.69" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="8" />
+      <attvalue for="v_id" value="74" />
+      <attvalue for="v_Authority" value="0.0908616" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0908616" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.0841349" />
+      <attvalue for="v_PageRank" value="0.00428414" />
+      <attvalue for="v_WalkTrapModularity" value="4" />
+    </attvalues>
+      <viz:color r="219" g="59" b="147"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5210.687136" x="3486.465217" z="0.0"></viz:position>
+    </node>
+    <node id="n50" label="Napoleon">
+    <attvalues>
+      <attvalue for="v_label" value="Napoleon" />
+      <attvalue for="v_r" value="217" />
+      <attvalue for="v_g" value="80" />
+      <attvalue for="v_b" value="35" />
+      <attvalue for="v_x" value="2648.32" />
+      <attvalue for="v_y" value="5588.91" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="0" />
+      <attvalue for="v_id" value="1" />
+      <attvalue for="v_Authority" value="0.0073724" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0073724" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.00605584" />
+      <attvalue for="v_PageRank" value="0.00742721" />
+      <attvalue for="v_WalkTrapModularity" value="1" />
+    </attvalues>
+      <viz:color r="217" g="80" b="35"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5588.908490" x="2648.316913" z="0.0"></viz:position>
+    </node>
+    <node id="n51" label="Cravatte">
+    <attvalues>
+      <attvalue for="v_label" value="Cravatte" />
+      <attvalue for="v_r" value="217" />
+      <attvalue for="v_g" value="80" />
+      <attvalue for="v_b" value="35" />
+      <attvalue for="v_x" value="2625.06" />
+      <attvalue for="v_y" value="6159.5" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="0" />
+      <attvalue for="v_id" value="7" />
+      <attvalue for="v_Authority" value="0.0073724" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0073724" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.00605584" />
+      <attvalue for="v_PageRank" value="0.00742721" />
+      <attvalue for="v_WalkTrapModularity" value="1" />
+    </attvalues>
+      <viz:color r="217" g="80" b="35"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="6159.497069" x="2625.061137" z="0.0"></viz:position>
+    </node>
+    <node id="n52" label="Count">
+    <attvalues>
+      <attvalue for="v_label" value="Count" />
+      <attvalue for="v_r" value="217" />
+      <attvalue for="v_g" value="80" />
+      <attvalue for="v_b" value="35" />
+      <attvalue for="v_x" value="2595.27" />
+      <attvalue for="v_y" value="5730.89" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="0" />
+      <attvalue for="v_id" value="8" />
+      <attvalue for="v_Authority" value="0.0073724" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0073724" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.00605584" />
+      <attvalue for="v_PageRank" value="0.00742721" />
+      <attvalue for="v_WalkTrapModularity" value="1" />
+    </attvalues>
+      <viz:color r="217" g="80" b="35"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5730.889687" x="2595.265953" z="0.0"></viz:position>
+    </node>
+    <node id="n53" label="OldMan">
+    <attvalues>
+      <attvalue for="v_label" value="OldMan" />
+      <attvalue for="v_r" value="217" />
+      <attvalue for="v_g" value="80" />
+      <attvalue for="v_b" value="35" />
+      <attvalue for="v_x" value="2566.16" />
+      <attvalue for="v_y" value="5957.86" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="0" />
+      <attvalue for="v_id" value="9" />
+      <attvalue for="v_Authority" value="0.0073724" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0073724" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.00605584" />
+      <attvalue for="v_PageRank" value="0.00742721" />
+      <attvalue for="v_WalkTrapModularity" value="1" />
+    </attvalues>
+      <viz:color r="217" g="80" b="35"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5957.860409" x="2566.156157" z="0.0"></viz:position>
+    </node>
+    <node id="n54" label="Labarre">
+    <attvalues>
+      <attvalue for="v_label" value="Labarre" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2788.04" />
+      <attvalue for="v_y" value="5989.75" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="10" />
+      <attvalue for="v_Authority" value="0.0701289" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0701289" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.064042" />
+      <attvalue for="v_PageRank" value="0.00481534" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5989.753521" x="2788.036130" z="0.0"></viz:position>
+    </node>
+    <node id="n55" label="MmeDeR">
+    <attvalues>
+      <attvalue for="v_label" value="MmeDeR" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="2816.49" />
+      <attvalue for="v_y" value="6275.92" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="13" />
+      <attvalue for="v_Authority" value="0.0701289" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0701289" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.064042" />
+      <attvalue for="v_PageRank" value="0.00481534" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="6275.924313" x="2816.486998" z="0.0"></viz:position>
+    </node>
+    <node id="n56" label="Gervais">
+    <attvalues>
+      <attvalue for="v_label" value="Gervais" />
+      <attvalue for="v_r" value="35" />
+      <attvalue for="v_g" value="217" />
+      <attvalue for="v_b" value="211" />
+      <attvalue for="v_x" value="3508.48" />
+      <attvalue for="v_y" value="6301.75" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="1" />
+      <attvalue for="v_id" value="15" />
+      <attvalue for="v_Authority" value="0.0701289" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0701289" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.064042" />
+      <attvalue for="v_PageRank" value="0.00481534" />
+      <attvalue for="v_WalkTrapModularity" value="0" />
+    </attvalues>
+      <viz:color r="35" g="217" b="211"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="6301.750871" x="3508.476216" z="0.0"></viz:position>
+    </node>
+    <node id="n57" label="Gribier">
+    <attvalues>
+      <attvalue for="v_label" value="Gribier" />
+      <attvalue for="v_r" value="123" />
+      <attvalue for="v_g" value="35" />
+      <attvalue for="v_b" value="217" />
+      <attvalue for="v_x" value="3060.44" />
+      <attvalue for="v_y" value="5201.43" />
+      <attvalue for="v_size" value="0" />
+      <attvalue for="v_Modularity Class" value="4" />
+      <attvalue for="v_id" value="45" />
+      <attvalue for="v_Authority" value="0.0104945" />
+      <attvalue for="v_Betweenness" value="0" />
+      <attvalue for="v_Degree" value="1" />
+      <attvalue for="v_Hub" value="0.0104945" />
+      <attvalue for="v_Indegree" value="1" />
+      <attvalue for="v_Outdegree" value="1" />
+      <attvalue for="v_Eigenvector" value="0.00930498" />
+      <attvalue for="v_PageRank" value="0.00593662" />
+      <attvalue for="v_WalkTrapModularity" value="3" />
+    </attvalues>
+      <viz:color r="123" g="35" b="217"></viz:color>
+      <viz:size value="0.000000"></viz:size>
+      <viz:position y="5201.428634" x="3060.435569" z="0.0"></viz:position>
+    </node>
+  </nodes>
+  <edges>
+    <edge id="0" source="n17" target="n50" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="0"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="1" source="n17" target="n40" weight="10.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="10"></attvalue>
+      <attvalue for="e_id" value="2"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="2" source="n17" target="n51" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="7"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="3" source="n17" target="n52" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="8"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="4" source="n17" target="n53" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="9"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="5" source="n0" target="n17" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="13"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="6" source="n0" target="n40" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="11"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="7" source="n0" target="n54" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="10"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="8" source="n0" target="n43" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="14"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="9" source="n0" target="n55" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="15"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="10" source="n0" target="n56" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="17"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="11" source="n22" target="n26" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="19"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="12" source="n22" target="n27" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="24"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="13" source="n26" target="n27" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="26"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="14" source="n22" target="n28" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="28"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="15" source="n26" target="n28" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="30"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="16" source="n27" target="n28" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="32"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="17" source="n0" target="n5" weight="9.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="9"></attvalue>
+      <attvalue for="e_id" value="47"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="18" source="n5" target="n43" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="46"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="19" source="n5" target="n22" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="39"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="20" source="n5" target="n26" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="41"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="21" source="n5" target="n27" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="43"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="22" source="n5" target="n28" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="44"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="23" source="n0" target="n11" weight="7.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="7"></attvalue>
+      <attvalue for="e_id" value="49"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="24" source="n5" target="n11" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="48"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="25" source="n0" target="n4" weight="12.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="12"></attvalue>
+      <attvalue for="e_id" value="52"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="26" source="n4" target="n5" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="51"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="27" source="n4" target="n11" weight="13.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="13"></attvalue>
+      <attvalue for="e_id" value="50"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="28" source="n0" target="n12" weight="31.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="31"></attvalue>
+      <attvalue for="e_id" value="54"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="29" source="n12" target="n22" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="55"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="30" source="n11" target="n12" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="53"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="31" source="n4" target="n12" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="56"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="32" source="n0" target="n3" weight="17.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="17"></attvalue>
+      <attvalue for="e_id" value="57"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="33" source="n3" target="n5" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="58"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="34" source="n3" target="n11" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="60"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="35" source="n3" target="n4" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="59"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="36" source="n3" target="n12" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="61"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="37" source="n0" target="n37" weight="8.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="8"></attvalue>
+      <attvalue for="e_id" value="62"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="38" source="n3" target="n37" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="63"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="39" source="n0" target="n25" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="66"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="40" source="n5" target="n25" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="64"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="41" source="n3" target="n25" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="65"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="42" source="n5" target="n44" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="67"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="43" source="n0" target="n38" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="69"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="44" source="n5" target="n38" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="70"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="45" source="n3" target="n38" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="71"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="46" source="n38" target="n44" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="68"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="47" source="n0" target="n45" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="73"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="48" source="n3" target="n45" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="74"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="49" source="n0" target="n33" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="75"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="50" source="n25" target="n33" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="76"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="51" source="n0" target="n34" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="77"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="52" source="n25" target="n34" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="79"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="53" source="n33" target="n34" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="78"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="54" source="n0" target="n35" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="87"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="55" source="n25" target="n35" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="88"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="56" source="n33" target="n35" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="84"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="57" source="n34" target="n35" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="85"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="58" source="n0" target="n36" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="93"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="59" source="n25" target="n36" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="94"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="60" source="n33" target="n36" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="89"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="61" source="n34" target="n36" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="90"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="62" source="n35" target="n36" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="92"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="63" source="n4" target="n41" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="95"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="64" source="n11" target="n13" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="97"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="65" source="n4" target="n13" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="98"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="66" source="n37" target="n57" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="107"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="67" source="n0" target="n1" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="112"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="68" source="n1" target="n4" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="110"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="69" source="n1" target="n3" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="111"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="70" source="n1" target="n46" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="109"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="71" source="n0" target="n29" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="114"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="72" source="n12" target="n29" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="113"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="73" source="n11" target="n47" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="116"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="74" source="n29" target="n47" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="115"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="75" source="n0" target="n30" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="119"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="76" source="n12" target="n30" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="118"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="77" source="n29" target="n30" weight="9.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="9"></attvalue>
+      <attvalue for="e_id" value="117"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="78" source="n41" target="n48" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="121"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="79" source="n30" target="n48" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="120"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="80" source="n12" target="n39" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="125"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="81" source="n29" target="n39" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="124"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="82" source="n30" target="n39" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="123"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="83" source="n0" target="n2" weight="19.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="19"></attvalue>
+      <attvalue for="e_id" value="131"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="84" source="n2" target="n22" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="132"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="85" source="n2" target="n4" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="133"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="86" source="n2" target="n12" weight="21.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="21"></attvalue>
+      <attvalue for="e_id" value="130"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="87" source="n2" target="n41" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="128"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="88" source="n2" target="n13" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="134"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="89" source="n1" target="n2" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="135"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="90" source="n2" target="n29" weight="12.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="12"></attvalue>
+      <attvalue for="e_id" value="127"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="91" source="n2" target="n30" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="126"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="92" source="n2" target="n39" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="129"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="93" source="n13" target="n14" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="139"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="94" source="n1" target="n14" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="140"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="95" source="n2" target="n14" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="138"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="96" source="n0" target="n6" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="145"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="97" source="n3" target="n6" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="143"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="98" source="n1" target="n6" weight="7.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="7"></attvalue>
+      <attvalue for="e_id" value="142"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="99" source="n2" target="n6" weight="7.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="7"></attvalue>
+      <attvalue for="e_id" value="141"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="100" source="n6" target="n14" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="144"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="101" source="n1" target="n15" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="148"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="102" source="n2" target="n15" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="147"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="103" source="n14" target="n15" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="149"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="104" source="n6" target="n15" weight="15.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="15"></attvalue>
+      <attvalue for="e_id" value="146"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="105" source="n1" target="n23" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="150"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="106" source="n6" target="n23" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="151"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="107" source="n15" target="n23" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="152"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="108" source="n1" target="n16" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="153"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="109" source="n2" target="n16" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="158"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="110" source="n14" target="n16" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="157"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="111" source="n6" target="n16" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="154"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="112" source="n15" target="n16" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="156"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="113" source="n16" target="n23" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="155"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="114" source="n7" target="n13" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="164"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="115" source="n1" target="n7" weight="7.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="7"></attvalue>
+      <attvalue for="e_id" value="162"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="116" source="n2" target="n7" weight="9.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="9"></attvalue>
+      <attvalue for="e_id" value="159"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="117" source="n7" target="n14" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="163"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="118" source="n6" target="n7" weight="17.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="17"></attvalue>
+      <attvalue for="e_id" value="160"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="119" source="n7" target="n15" weight="13.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="13"></attvalue>
+      <attvalue for="e_id" value="161"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="120" source="n7" target="n23" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="166"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="121" source="n7" target="n16" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="165"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="122" source="n1" target="n9" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="168"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="123" source="n2" target="n9" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="174"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="124" source="n9" target="n14" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="170"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="125" source="n6" target="n9" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="171"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="126" source="n9" target="n15" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="167"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="127" source="n9" target="n23" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="173"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="128" source="n9" target="n16" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="172"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="129" source="n7" target="n9" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="169"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="130" source="n0" target="n8" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="184"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="131" source="n1" target="n8" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="177"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="132" source="n2" target="n8" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="175"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="133" source="n8" target="n14" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="183"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="134" source="n6" target="n8" weight="10.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="10"></attvalue>
+      <attvalue for="e_id" value="179"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="135" source="n8" target="n15" weight="9.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="9"></attvalue>
+      <attvalue for="e_id" value="182"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="136" source="n8" target="n23" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="181"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="137" source="n8" target="n16" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="180"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="138" source="n7" target="n8" weight="12.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="12"></attvalue>
+      <attvalue for="e_id" value="176"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="139" source="n8" target="n9" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="178"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="140" source="n1" target="n10" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="187"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="141" source="n2" target="n10" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="194"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="142" source="n10" target="n14" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="193"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="143" source="n6" target="n10" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="189"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="144" source="n10" target="n15" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="192"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="145" source="n10" target="n23" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="191"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="146" source="n10" target="n16" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="190"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="147" source="n7" target="n10" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="188"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="148" source="n9" target="n10" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="185"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="149" source="n8" target="n10" weight="7.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="7"></attvalue>
+      <attvalue for="e_id" value="186"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="150" source="n1" target="n18" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="200"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="151" source="n6" target="n18" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="196"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="152" source="n15" target="n18" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="197"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="153" source="n18" target="n23" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="203"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="154" source="n16" target="n18" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="202"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="155" source="n7" target="n18" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="198"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="156" source="n9" target="n18" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="201"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="157" source="n8" target="n18" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="195"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="158" source="n10" target="n18" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="199"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="159" source="n0" target="n19" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="206"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="160" source="n11" target="n19" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="207"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="161" source="n4" target="n19" weight="5.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="5"></attvalue>
+      <attvalue for="e_id" value="205"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="162" source="n3" target="n19" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="208"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="163" source="n13" target="n19" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="210"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="164" source="n1" target="n19" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="209"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="165" source="n0" target="n20" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="213"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="166" source="n11" target="n20" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="214"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="167" source="n4" target="n20" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="211"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="168" source="n3" target="n20" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="215"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="169" source="n13" target="n20" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="217"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="170" source="n1" target="n20" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="216"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="171" source="n19" target="n20" weight="6.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="6"></attvalue>
+      <attvalue for="e_id" value="212"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="172" source="n0" target="n21" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="221"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="173" source="n11" target="n21" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="222"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="174" source="n4" target="n21" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="218"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="175" source="n3" target="n21" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="223"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="176" source="n13" target="n21" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="224"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="177" source="n6" target="n21" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="225"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="178" source="n19" target="n21" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="220"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="179" source="n20" target="n21" weight="4.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="4"></attvalue>
+      <attvalue for="e_id" value="219"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="180" source="n0" target="n24" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="230"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="181" source="n4" target="n24" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="233"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="182" source="n3" target="n24" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="226"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="183" source="n13" target="n24" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="232"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="184" source="n1" target="n24" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="231"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="185" source="n19" target="n24" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="228"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="186" source="n20" target="n24" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="227"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="187" source="n21" target="n24" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="229"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="188" source="n0" target="n42" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="236"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="189" source="n12" target="n42" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="234"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="190" source="n3" target="n42" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="235"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="191" source="n1" target="n49" weight="2.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="2"></attvalue>
+      <attvalue for="e_id" value="238"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="192" source="n4" target="n31" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="242"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="193" source="n13" target="n31" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="244"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="194" source="n1" target="n31" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="243"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="195" source="n19" target="n31" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="241"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="196" source="n20" target="n31" weight="3.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="3"></attvalue>
+      <attvalue for="e_id" value="240"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="197" source="n21" target="n31" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="245"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="198" source="n24" target="n31" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="246"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="199" source="n1" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="252"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="200" source="n6" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="253"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="201" source="n7" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="251"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="202" source="n9" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="250"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="203" source="n8" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="247"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="204" source="n10" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="248"></attvalue>
+      </attvalues>
+    </edge>
+    <edge id="205" source="n18" target="n32" weight="1.000000">
+      <attvalues>
+      <attvalue for="e_Edge Label" value=""></attvalue>
+      <attvalue for="e_weight" value="1"></attvalue>
+      <attvalue for="e_id" value="249"></attvalue>
+      </attvalues>
+    </edge>
+  </edges>
+  </graph>
+</gexf>
