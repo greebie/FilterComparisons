@@ -1,12 +1,37 @@
+var s = new sigma('cppdegree');
+var s2 = new sigma('cppbetween');
+var s3 = new sigma('cppeigen');
+var s4 = new sigma('cppauthority');
 sigma.parsers.gexf(
-    'GEXF/cpp210Degree.gexf',
-    { // Here is the ID of the DOM element that
-      // will contain the graph:
-      container: 'cpp2-10'
-    },
-    function(s) {
-      // This function will be executed when the
-      // graph is displayed, with "s" the related
-      // sigma instance.
+    'GEXF/cpp225Degree.gexf',
+    s,
+    function(y) {
+    s.refresh();
     }
   );
+
+sigma.parsers.gexf(
+      'GEXF/cpp225Betweenness.gexf',
+      s2,
+      function(y) {
+      s2.refresh();
+      }
+    );
+
+sigma.parsers.gexf(
+        'GEXF/cpp225Eigenvector.gexf',
+        s3,
+        function(y) {
+        s3.refresh();
+        }
+      );
+
+sigma.parsers.gexf(
+          'GEXF/cpp225Authority.gexf',
+          s4,
+          function(y) {
+          s4.refresh();
+          }
+        );
+
+  // Refresh the graph to see the changes:
